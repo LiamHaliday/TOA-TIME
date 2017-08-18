@@ -1,9 +1,9 @@
-﻿Log file open, 08/17/17 18:14:18
+﻿Log file open, 08/18/17 10:31:33
 LogInit:Display: Running engine for game: KoopySandwich
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1393790203) SRandInit(-1393790202).
+LogInit:Display: RandInit(988818990) SRandInit(988818990).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.121942
+LogStats: Stats thread started at 0.170379
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -144,396 +144,938 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.17-06.14.19:430][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.17-06.14.19:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.17-06.14.19:475][  0]LogInit: Computer: DESKTOP-G7KNM43
-[2017.08.17-06.14.19:475][  0]LogInit: User: Admin
-[2017.08.17-06.14.19:475][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.08.17-06.14.19:475][  0]LogInit: High frequency timer resolution =3.410070 MHz
-[2017.08.17-06.14.19:475][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.08.17-06.14.19:475][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.17-06.14.19:475][  0]LogMemory: Process Physical Memory: 264.43 MB used, 264.43 MB peak
-[2017.08.17-06.14.19:475][  0]LogMemory: Process Virtual Memory: 262.28 MB used, 262.28 MB peak
-[2017.08.17-06.14.19:475][  0]LogMemory: Physical Memory: 7317.14 MB used,  8944.96 MB free, 16262.10 MB total
-[2017.08.17-06.14.19:475][  0]LogMemory: Virtual Memory: 676.20 MB used,  8944.96 MB free, 134217728.00 MB total
-[2017.08.17-06.14.19:529][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
-[2017.08.17-06.14.20:819][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.17-06.14.20:873][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2017.08.17-06.14.20:873][  0]LogD3D11RHI:       4050/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.08.17-06.14.20:883][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.08.17-06.14.20:884][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.08.17-06.14.20:887][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.17-06.14.20:887][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.17-06.14.20:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.17-06.14.20:898][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.17-06.14.20:898][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.17-06.14.20:898][  0]LogWindows: EnumDisplayDevices:
-[2017.08.17-06.14.20:899][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2017.08.17-06.14.20:899][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2017.08.17-06.14.20:899][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2017.08.17-06.14.20:899][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2017.08.17-06.14.20:900][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
-[2017.08.17-06.14.20:900][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.08.17-06.14.20:900][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.08.17-06.14.20:901][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.08.17-06.14.20:901][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2017.08.17-06.14.20:901][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.08.17-06.14.20:901][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.08.17-06.14.20:901][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.17-06.14.20:946][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.17-06.14.20:962][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.17-06.14.20:964][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Intermediate/Shaders/WorkingDirectory/12476/).
-[2017.08.17-06.14.20:964][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/7290A82D4117C00BCB807796C841246A/'.
-[2017.08.17-06.14.20:964][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.17-06.14.23:941][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.17-06.14.24:182][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.17-06.14.24:440][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.17-06.14.24:738][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.17-06.14.25:005][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.17-06.14.25:250][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.17-06.14.25:507][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.17-06.14.25:770][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.17-06.14.26:021][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.17-06.14.26:301][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.17-06.14.26:555][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.17-06.14.26:821][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.17-06.14.27:075][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.17-06.14.27:330][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.17-06.14.27:578][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.17-06.14.28:147][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.17-06.14.28:147][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.17-06.14.28:399][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.17-06.14.28:839][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.17-06.14.29:000][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.17-06.14.29:239][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.17-06.14.29:478][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.17-06.14.29:730][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.17-06.14.29:970][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.17-06.14.29:970][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.17-06.14.32:406][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.17-06.14.32:480][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.17-06.14.32:499][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.17-06.14.32:513][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.17-06.14.32:837][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.17-06.14.32:843][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.17-06.14.33:662][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.17-06.14.33:946][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.17-06.14.34:246][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.17-06.14.34:246][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.17-06.14.34:246][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.17-06.14.35:557][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: koopysandwich, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3251895152
-[2017.08.17-06.14.35:758][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
-[2017.08.17-06.14.36:092][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.166989 seconds
-[2017.08.17-06.14.36:100][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
-[2017.08.17-06.14.36:100][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
-[2017.08.17-06.14.36:100][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.17-06.14.36:603][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.17-06.14.41:733][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.17-06.14.41:735][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.17-06.14.41:735][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.17-06.14.44:009][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2017.08.17-06.14.44:198][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.17-06.14.44:476][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.17-06.14.48:008][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.17-06.14.50:118][  0]SourceControl: Info Source control is disabled
-[2017.08.17-06.14.50:120][  0]SourceControl: Info Source control is disabled
-[2017.08.17-06.14.50:408][  0]SourceControl: Info Source control is disabled
-[2017.08.17-06.14.50:729][  0]SourceControl: Info Source control is disabled
-[2017.08.17-06.14.58:606][  0]LogEngine: Initializing Engine...
-[2017.08.17-06.14.58:607][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.17-06.14.59:550][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.17-06.14.59:571][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-06.14.59:615][  0]LogInit: FAudioDevice initialized.
-[2017.08.17-06.14.59:668][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
-[2017.08.17-06.14.59:679][  0]LogInit: Texture streaming: Enabled
-[2017.08.17-06.15.00:917][  0]LogInit: Transaction tracking system initialized
-[2017.08.17-06.15.03:095][  0]BlueprintLog: New page: Editor Load
-[2017.08.17-06.15.08:567][  0]LocalizationService: Info Localization service is disabled
-[2017.08.17-06.15.12:451][  0]LogConsoleResponse:Display: 
-[2017.08.17-06.15.12:802][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.17-06.15.12:802][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.17-06.15.12:959][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/' took 0.02s
-[2017.08.17-06.15.18:406][  0]SourceControl: Info Source control is disabled
-[2017.08.17-06.15.18:406][  0]Cmd: MAP LOAD FILE="G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.17-06.15.18:407][  0]LightingResults: New page: Lighting Build
-[2017.08.17-06.15.18:649][  0]MapCheck: New page: Map Check
-[2017.08.17-06.15.18:649][  0]LightingResults: New page: Lighting Build
-[2017.08.17-06.15.19:044][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.08.17-06.15.19:057][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.08.17-06.15.19:061][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2017.08.17-06.15.19:074][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.08.17-06.15.19:144][  0]LogStaticMesh: Building static mesh TutorialIsland_V2_Mesh...
-[2017.08.17-06.15.21:317][  0]LogStaticMesh: Built static mesh [2.17s] /Game/_Meshes/TutorialIsland_V2_Mesh.TutorialIsland_V2_Mesh
-[2017.08.17-06.15.21:320][  0]LogStaticMesh: Building static mesh DoubleJumpIsland_V2_Mesh...
-[2017.08.17-06.15.24:646][  0]LogStaticMesh: Built static mesh [3.33s] /Game/_Meshes/DoubleJumpIsland_V2_Mesh.DoubleJumpIsland_V2_Mesh
-[2017.08.17-06.15.24:651][  0]LogStaticMesh: Building static mesh Rock01_Mesh...
-[2017.08.17-06.15.24:668][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Meshes/Rock01_Mesh.Rock01_Mesh
-[2017.08.17-06.15.24:668][  0]LogStaticMesh: Building static mesh Rock02_Mesh...
-[2017.08.17-06.15.24:749][  0]LogStaticMesh: Built static mesh [0.08s] /Game/_Meshes/Rock02_Mesh.Rock02_Mesh
-[2017.08.17-06.15.24:750][  0]LogStaticMesh: Building static mesh Rock03_Mesh...
-[2017.08.17-06.15.24:764][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Meshes/Rock03_Mesh.Rock03_Mesh
-[2017.08.17-06.15.24:765][  0]LogStaticMesh: Building static mesh Rock04_Mesh...
-[2017.08.17-06.15.24:780][  0]LogStaticMesh: Built static mesh [0.02s] /Game/_Meshes/Rock04_Mesh.Rock04_Mesh
-[2017.08.17-06.15.25:168][  0]LogTexture:Display: Building textures: ruf4 (AutoDXT)
-[2017.08.17-06.15.26:338][  0]LogTexture:Display: Building textures: occ4 (AutoDXT)
-[2017.08.17-06.15.27:453][  0]LogTexture:Display: Building textures: nurm4 (BC5)
-[2017.08.17-06.15.28:161][  0]LogTexture:Display: Building textures: alb4 (AutoDXT)
-[2017.08.17-06.15.29:686][  0]LogTexture:Display: Building textures: alb1 (AutoDXT)
-[2017.08.17-06.15.31:180][  0]LogTexture:Display: Building textures: ruf1 (AutoDXT)
-[2017.08.17-06.15.32:375][  0]LogTexture:Display: Building textures: nurm1 (BC5)
-[2017.08.17-06.15.32:952][  0]LogTexture:Display: Building textures: occ1 (AutoDXT)
-[2017.08.17-06.15.33:893][  0]LogMaterial: Missing cached shader map for material Rock_M, compiling. 
-[2017.08.17-06.15.34:032][  0]LogTexture:Display: Building textures: ruf3 (AutoDXT)
-[2017.08.17-06.15.35:357][  0]LogTexture:Display: Building textures: occ3 (AutoDXT)
-[2017.08.17-06.15.36:942][  0]LogTexture:Display: Building textures: nurm3 (BC5)
-[2017.08.17-06.15.37:821][  0]LogTexture:Display: Building textures: alb3 (AutoDXT)
-[2017.08.17-06.15.39:616][  0]LogTexture:Display: Building textures: ruf2 (AutoDXT)
-[2017.08.17-06.15.40:887][  0]LogTexture:Display: Building textures: occ2 (AutoDXT)
-[2017.08.17-06.15.42:257][  0]LogTexture:Display: Building textures: nurm2 (BC5)
-[2017.08.17-06.15.42:884][  0]LogTexture:Display: Building textures: alb2 (AutoDXT)
-[2017.08.17-06.15.45:068][  0]LogTexture:Display: Building textures: waterSmall_N (BC5)
-[2017.08.17-06.15.45:245][  0]LogTexture:Display: Building textures: waterSmall_H (AutoDXT)
-[2017.08.17-06.15.45:605][  0]LogMaterial: Missing cached shader map for material M_Water, compiling. 
-[2017.08.17-06.15.45:752][  0]LogTexture:Display: Building textures: Rock_R (AutoDXT)
-[2017.08.17-06.15.46:380][  0]LogTexture:Display: Building textures: Rock_N (BC5)
-[2017.08.17-06.15.46:609][  0]LogTexture:Display: Building textures: Rock_D (AutoDXT)
-[2017.08.17-06.15.47:466][  0]LogTexture:Display: Building textures: sand_D (AutoDXT)
-[2017.08.17-06.15.48:273][  0]LogTexture:Display: Building textures: sand_N (BC5)
-[2017.08.17-06.15.48:477][  0]LogTexture:Display: Building textures: Grass_D (AutoDXT)
-[2017.08.17-06.15.49:301][  0]LogTexture:Display: Building textures: Grass_N (BC5)
-[2017.08.17-06.15.49:485][  0]LogTexture:Display: Building textures: Grass_H (AutoDXT)
-[2017.08.17-06.15.50:107][  0]LogTexture:Display: Building textures: sand_BW (AutoDXT)
-[2017.08.17-06.15.50:569][  0]LogTexture:Display: Building textures: sand_R (AutoDXT)
-[2017.08.17-06.15.50:941][  0]LogTexture:Display: Building textures: Grass_R (AutoDXT)
-[2017.08.17-06.15.51:486][  0]LogMaterial: Missing cached shader map for material M_ground, compiling. 
-[2017.08.17-06.15.51:603][  0]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-06.15.51:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.17-06.15.51:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.17-06.15.51:971][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 334.312ms to complete.
-[2017.08.17-06.15.51:971][  0]LogFileHelpers: Loading map 'Koopy' took 33.565
-[2017.08.17-06.15.52:536][  0]LogCollectionManager: Loaded 0 collections in 0.003920 seconds
-[2017.08.17-06.15.53:095][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Collections/' took 0.01s
-[2017.08.17-06.15.53:095][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Developers/Admin/Collections/' took 0.01s
-[2017.08.17-06.15.53:095][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Collections/' took 0.01s
-[2017.08.17-06.15.53:095][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.17-06.15.53:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2204 classes and 434 folders.
-[2017.08.17-06.15.53:561][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.17-06.15.53:561][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.17-06.15.53:563][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0021 seconds. Added 13 classes and 0 folders.
-[2017.08.17-06.15.54:285][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2017.08.17-06.15.55:472][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
-[2017.08.17-06.15.56:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
-[2017.08.17-06.15.56:340][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.17-06.15.57:453][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
-[2017.08.17-06.15.57:453][  0]LogLoad: (Engine Initialization) Total time: 102.73 seconds
-[2017.08.17-06.15.57:453][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
-[2017.08.17-06.15.57:453][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.17-06.15.57:794][  0]LogOcInput: OculusInput pre-init called
-[2017.08.17-06.15.57:817][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.17-06.15.58:142][  0]LogRenderer: Reallocating scene render targets to support 1124x576 NumSamples 1 (Frame:2).
-[2017.08.17-06.15.58:626][  2]LogAssetRegistry: Asset discovery search completed in 82.8899 seconds
-[2017.08.17-06.15.58:626][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2017.08.17-06.15.58:626][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
-[2017.08.17-06.31.46:297][873]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-06.31.46:338][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-06.31.46:345][873]PIE: New page: PIE session: Koopy (18/08/2017 6:31:46 am)
-[2017.08.17-06.31.46:345][873]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-06.31.46:366][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020705s)
-[2017.08.17-06.31.46:367][873]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-06.31.46:368][873]LogPlayLevel: PIE: World Init took: (0.001440s)
-[2017.08.17-06.31.46:368][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.022467s)
-[2017.08.17-06.31.46:394][873]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-06.31.46:418][873]LogInit: FAudioDevice initialized.
-[2017.08.17-06.31.46:932][873]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-06.31.46:935][873]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-18.31.46
-[2017.08.17-06.31.46:936][873]LogWorld: Bringing up level for play took: 0.001452
-[2017.08.17-06.31.47:220][873]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
-[2017.08.17-06.31.47:232][873]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.08
-[2017.08.17-06.31.47:272][873]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:2114).
-[2017.08.17-06.32.33:384][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.33.36:551][ 42]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-06.33.36:586][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-06.33.36:586][ 42]PIE: New page: PIE session: Koopy (18/08/2017 6:33:36 am)
-[2017.08.17-06.33.36:586][ 42]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-06.33.36:616][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029990s)
-[2017.08.17-06.33.36:618][ 42]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-06.33.36:618][ 42]LogPlayLevel: PIE: World Init took: (0.002049s)
-[2017.08.17-06.33.36:618][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.032632s)
-[2017.08.17-06.33.36:643][ 42]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-06.33.36:661][ 42]LogInit: FAudioDevice initialized.
-[2017.08.17-06.33.36:747][ 42]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-06.33.36:751][ 42]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-18.33.36
-[2017.08.17-06.33.36:751][ 42]LogWorld: Bringing up level for play took: 0.002817
-[2017.08.17-06.33.36:759][ 42]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.393
-[2017.08.17-06.38.10:031][812]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.10:114][815]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.11:845][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.11:948][932]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.12:612][973]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.12:691][976]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.13:287][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.13:382][ 15]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.14:651][ 96]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.14:750][100]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.15:596][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.38.15:700][158]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.16:597][214]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
-[2017.08.17-06.38.16:690][218]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Island_Mesh)
-[2017.08.17-06.39.59:865][ 34]LogTexture:Display: Building textures: SunsetAmbientCubemap (RGBA16F)
-[2017.08.17-06.40.07:826][ 34]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
-[2017.08.17-07.41.09:669][806]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-07.41.09:706][806]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-07.41.09:706][806]PIE: New page: PIE session: Koopy (18/08/2017 7:41:09 am)
-[2017.08.17-07.41.09:706][806]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-07.41.09:740][806]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033335s)
-[2017.08.17-07.41.09:742][806]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-07.41.09:743][806]LogPlayLevel: PIE: World Init took: (0.003516s)
-[2017.08.17-07.41.09:744][806]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.037543s)
-[2017.08.17-07.41.09:772][806]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-07.41.09:799][806]LogInit: FAudioDevice initialized.
-[2017.08.17-07.41.09:886][806]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-07.41.09:892][806]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-19.41.09
-[2017.08.17-07.41.09:893][806]LogWorld: Bringing up level for play took: 0.005154
-[2017.08.17-07.41.09:903][806]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.751
-[2017.08.17-07.48.28:029][939]LogSavePackage: Save=79.01ms
-[2017.08.17-07.48.28:029][939]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/boatAA1D7A104CA0D9FC106830A48B11F40F.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/boat.uasset'
-[2017.08.17-07.48.28:054][939]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/boat.uasset
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.BoatPawn:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.SKEL_BoatPawn_C' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.BoatPawn_C' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.BoatPawn:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.BoatPawn:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:354][501]LogMetaData: Removing '/Game/_Custom_Objects/BoatPawn.BoatPawn:EventGraph.K2Node_Event_2' ref from Metadata '/Game/_Custom_Objects/boat.PackageMetaData'
-[2017.08.17-07.48.39:487][501]LogSavePackage: Save=64.01ms
-[2017.08.17-07.48.39:487][501]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoatPawn7CCA07EE411DEBE32DC082B57EBC0EFF.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/BoatPawn.uasset'
-[2017.08.17-07.48.39:510][501]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/BoatPawn.uasset
-[2017.08.17-07.58.06:908][441]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0031 seconds. Added 111 classes and 0 folders.
-[2017.08.17-08.01.31:862][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 0.034
-[2017.08.17-08.01.31:886][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/_Custom_Objects/BoatPawn] ([1] browsable assets)...
-[2017.08.17-08.01.31:886][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/_Custom_Objects/BoatPawn]
-[2017.08.17-08.01.32:110][692]LogSavePackage: Save=96.98ms
-[2017.08.17-08.01.32:110][692]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoatPawn_Auto1F3C9D63C49E00E938BB5CCBD0ECBEB86.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Custom_Objects/BoatPawn_Auto1.uasset'
-[2017.08.17-08.01.32:118][692]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Custom_Objects/BoatPawn_Auto1.uasset
-[2017.08.17-08.01.32:118][692]LogFileHelpers: Auto-saving content packages took 0.255
-[2017.08.17-08.07.10:948][749]BlueprintLog: New page: Compile BoatPawn
-[2017.08.17-08.07.15:789][944]LogSavePackage: Save=78.19ms
-[2017.08.17-08.07.15:794][944]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoatPawn5DADA04D4C41DA9887EADD9A440C268D.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/BoatPawn.uasset'
-[2017.08.17-08.07.15:824][944]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Custom_Objects/BoatPawn.uasset
-[2017.08.17-08.16.36:614][137]LogSavePackage: Save=2618.27ms
-[2017.08.17-08.16.36:614][137]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/TutorialIsland_V2_Mesh9CF195864F67AA4D38BB4D8A53E62CBC.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/TutorialIsland_V2_Mesh.uasset'
-[2017.08.17-08.16.40:102][137]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/TutorialIsland_V2_Mesh.uasset
-[2017.08.17-08.27.54:118][572]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.27.54:159][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.27.54:159][572]PIE: New page: PIE session: Koopy (18/08/2017 8:27:54 am)
-[2017.08.17-08.27.54:159][572]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.27.54:181][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022152s)
-[2017.08.17-08.27.54:182][572]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.27.54:183][572]LogPlayLevel: PIE: World Init took: (0.001523s)
-[2017.08.17-08.27.54:183][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.023970s)
-[2017.08.17-08.27.54:209][572]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.27.54:227][572]LogInit: FAudioDevice initialized.
-[2017.08.17-08.27.54:301][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.27.54:304][572]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.27.54
-[2017.08.17-08.27.54:304][572]LogWorld: Bringing up level for play took: 0.001920
-[2017.08.17-08.27.54:313][572]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.84
-[2017.08.17-08.28.50:515][173]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.28.50:578][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.28.50:578][173]PIE: New page: PIE session: Koopy (18/08/2017 8:28:50 am)
-[2017.08.17-08.28.50:578][173]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.28.50:598][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020139s)
-[2017.08.17-08.28.50:599][173]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.28.50:599][173]LogPlayLevel: PIE: World Init took: (0.000896s)
-[2017.08.17-08.28.50:599][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.021245s)
-[2017.08.17-08.28.50:626][173]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.28.50:643][173]LogInit: FAudioDevice initialized.
-[2017.08.17-08.28.50:752][173]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.28.50:755][173]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.28.50
-[2017.08.17-08.28.50:755][173]LogWorld: Bringing up level for play took: 0.001705
-[2017.08.17-08.28.50:766][173]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.387
-[2017.08.17-08.29.56:493][288]LogSavePackage: Save=261.41ms
-[2017.08.17-08.29.56:493][288]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonCharacter4C6CD1D94DBE3781F43ADFA28B4C161D.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2017.08.17-08.29.56:533][288]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2017.08.17-08.30.45:514][  8]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2017.08.17-08.30.47:272][ 53]LogSavePackage: Save=281.45ms
-[2017.08.17-08.30.47:272][ 53]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonCharacterFE0D14A742338AC4496A9CBE9EF4C50C.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2017.08.17-08.30.47:284][ 53]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2017.08.17-08.31.39:578][113]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.31.39:610][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.31.39:611][113]PIE: New page: PIE session: Koopy (18/08/2017 8:31:39 am)
-[2017.08.17-08.31.39:611][113]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.31.39:630][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018951s)
-[2017.08.17-08.31.39:631][113]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.31.39:631][113]LogPlayLevel: PIE: World Init took: (0.001230s)
-[2017.08.17-08.31.39:631][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.020456s)
-[2017.08.17-08.31.39:654][113]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.31.39:673][113]LogInit: FAudioDevice initialized.
-[2017.08.17-08.31.39:745][113]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.31.39:749][113]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.31.39
-[2017.08.17-08.31.39:750][113]LogWorld: Bringing up level for play took: 0.002899
-[2017.08.17-08.31.39:759][113]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.606
-[2017.08.17-08.35.20:109][172]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.35.20:143][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.35.20:143][172]PIE: New page: PIE session: Koopy (18/08/2017 8:35:20 am)
-[2017.08.17-08.35.20:143][172]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.35.20:162][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019311s)
-[2017.08.17-08.35.20:163][172]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.35.20:163][172]LogPlayLevel: PIE: World Init took: (0.000929s)
-[2017.08.17-08.35.20:164][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.020661s)
-[2017.08.17-08.35.20:185][172]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.35.20:204][172]LogInit: FAudioDevice initialized.
-[2017.08.17-08.35.20:272][172]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.35.20:277][172]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.35.20
-[2017.08.17-08.35.20:277][172]LogWorld: Bringing up level for play took: 0.003045
-[2017.08.17-08.35.20:286][172]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.133
-[2017.08.17-08.35.38:279][911]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.35.38:310][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.35.38:310][911]PIE: New page: PIE session: Koopy (18/08/2017 8:35:38 am)
-[2017.08.17-08.35.38:310][911]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.35.38:329][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018464s)
-[2017.08.17-08.35.38:329][911]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.35.38:329][911]LogPlayLevel: PIE: World Init took: (0.000877s)
-[2017.08.17-08.35.38:330][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019669s)
-[2017.08.17-08.35.38:352][911]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.35.38:369][911]LogInit: FAudioDevice initialized.
-[2017.08.17-08.35.38:442][911]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.35.38:445][911]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.35.38
-[2017.08.17-08.35.38:445][911]LogWorld: Bringing up level for play took: 0.001638
-[2017.08.17-08.35.38:452][911]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.7
-[2017.08.17-08.41.41:513][366]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.41.41:553][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.41.41:553][366]PIE: New page: PIE session: Koopy (18/08/2017 8:41:41 am)
-[2017.08.17-08.41.41:553][366]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.41.41:572][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018921s)
-[2017.08.17-08.41.41:573][366]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.41.41:573][366]LogPlayLevel: PIE: World Init took: (0.000783s)
-[2017.08.17-08.41.41:573][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019946s)
-[2017.08.17-08.41.41:596][366]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.41.41:615][366]LogInit: FAudioDevice initialized.
-[2017.08.17-08.41.41:693][366]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.41.41:698][366]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.41.41
-[2017.08.17-08.41.41:698][366]LogWorld: Bringing up level for play took: 0.002779
-[2017.08.17-08.41.41:705][366]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.553
-[2017.08.17-08.43.14:273][ 77]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2017.08.17-08.43.15:631][112]LogSavePackage: Save=270.07ms
-[2017.08.17-08.43.15:632][112]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonCharacter2C40452B432AF1571487CEAA3D807F2F.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2017.08.17-08.43.15:667][112]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
-[2017.08.17-08.43.16:908][176]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.08.17-08.43.16:952][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.17-08.43.16:952][176]PIE: New page: PIE session: Koopy (18/08/2017 8:43:16 am)
-[2017.08.17-08.43.16:952][176]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
-[2017.08.17-08.43.16:976][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023404s)
-[2017.08.17-08.43.16:977][176]LogAIModule: Creating AISystem for world Koopy
-[2017.08.17-08.43.16:977][176]LogPlayLevel: PIE: World Init took: (0.001029s)
-[2017.08.17-08.43.16:977][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024765s)
-[2017.08.17-08.43.17:003][176]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
-[2017.08.17-08.43.17:025][176]LogInit: FAudioDevice initialized.
-[2017.08.17-08.43.17:102][176]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2017.08.17-08.43.17:105][176]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.17-20.43.17
-[2017.08.17-08.43.17:105][176]LogWorld: Bringing up level for play took: 0.001605
-[2017.08.17-08.43.17:115][176]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.037
-[2017.08.17-08.47.21:408][ 81]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-22.31.34:511][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-22.31.34:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.17-22.31.34:551][  0]LogInit: Computer: DESKTOP-G7KNM43
+[2017.08.17-22.31.34:551][  0]LogInit: User: Admin
+[2017.08.17-22.31.34:551][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.08.17-22.31.34:551][  0]LogInit: High frequency timer resolution =3.410070 MHz
+[2017.08.17-22.31.34:551][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.17-22.31.34:551][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.17-22.31.34:551][  0]LogMemory: Process Physical Memory: 283.21 MB used, 283.21 MB peak
+[2017.08.17-22.31.34:551][  0]LogMemory: Process Virtual Memory: 264.36 MB used, 264.36 MB peak
+[2017.08.17-22.31.34:551][  0]LogMemory: Physical Memory: 8733.61 MB used,  7528.48 MB free, 16262.10 MB total
+[2017.08.17-22.31.34:551][  0]LogMemory: Virtual Memory: 695.52 MB used,  7528.48 MB free, 134217728.00 MB total
+[2017.08.17-22.31.34:621][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2017.08.17-22.31.35:793][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.17-22.31.35:878][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2017.08.17-22.31.35:878][  0]LogD3D11RHI:       4050/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.17-22.31.35:891][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.17-22.31.35:891][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.17-22.31.35:897][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.17-22.31.35:897][  0]LogD3D11RHI:       0/0/8131 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.17-22.31.35:897][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.17-22.31.35:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.17-22.31.35:910][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.17-22.31.35:911][  0]LogWindows: EnumDisplayDevices:
+[2017.08.17-22.31.35:911][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2017.08.17-22.31.35:911][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.17-22.31.35:911][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.17-22.31.35:911][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2017.08.17-22.31.35:912][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:1)
+[2017.08.17-22.31.35:912][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.17-22.31.35:912][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.17-22.31.35:912][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.17-22.31.35:912][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2017.08.17-22.31.35:912][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.08.17-22.31.35:912][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.08.17-22.31.35:912][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.17-22.31.35:964][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.17-22.31.35:975][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.17-22.31.35:976][  0]LogShaderCompilers: Guid format shader working directory is -57 characters bigger than the processId version (G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Intermediate/Shaders/WorkingDirectory/16280/).
+[2017.08.17-22.31.35:976][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Admin/AppData/Local/Temp/UnrealShaderWorkingDir/B3F0860C43BA25FB6EDCBC946018597C/'.
+[2017.08.17-22.31.35:976][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.17-22.31.38:903][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.17-22.31.39:162][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.17-22.31.39:411][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.17-22.31.39:677][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.17-22.31.39:949][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.17-22.31.40:212][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.17-22.31.40:459][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.17-22.31.40:709][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.17-22.31.40:947][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.17-22.31.41:208][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.17-22.31.41:451][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.17-22.31.41:705][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.17-22.31.41:947][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.17-22.31.42:207][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.17-22.31.42:448][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.17-22.31.42:937][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.17-22.31.42:938][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.17-22.31.43:176][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.17-22.31.43:566][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.17-22.31.43:720][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.17-22.31.43:971][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.17-22.31.44:229][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.17-22.31.44:485][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.17-22.31.44:749][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.17-22.31.44:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.17-22.31.47:179][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.17-22.31.47:248][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.17-22.31.47:265][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.17-22.31.47:278][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.17-22.31.47:897][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.17-22.31.47:901][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.17-22.31.48:642][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.17-22.31.48:891][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.17-22.31.49:146][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.17-22.31.49:146][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.17-22.31.49:146][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.17-22.31.50:331][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: koopysandwich, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3251895152
+[2017.08.17-22.31.50:524][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.08.17-22.31.52:227][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.550221 seconds
+[2017.08.17-22.31.52:234][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.08.17-22.31.52:234][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.08.17-22.31.52:234][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.17-22.31.52:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.17-22.31.57:162][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.17-22.31.57:164][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-22.31.57:164][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.17-22.31.59:377][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.08.17-22.31.59:559][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.17-22.31.59:743][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.17-22.32.01:151][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.17-22.32.03:161][  0]SourceControl: Info Source control is disabled
+[2017.08.17-22.32.03:165][  0]SourceControl: Info Source control is disabled
+[2017.08.17-22.32.03:452][  0]SourceControl: Info Source control is disabled
+[2017.08.17-22.32.03:737][  0]SourceControl: Info Source control is disabled
+[2017.08.17-22.32.11:563][  0]LogEngine: Initializing Engine...
+[2017.08.17-22.32.11:564][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.17-22.32.12:448][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.17-22.32.12:475][  0]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-22.32.12:506][  0]LogInit: FAudioDevice initialized.
+[2017.08.17-22.32.12:555][  0]LogDerivedDataCache: Saved boot cache 0.05s 50MB C:/Users/Admin/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.17-22.32.12:567][  0]LogInit: Texture streaming: Enabled
+[2017.08.17-22.32.13:662][  0]LogInit: Transaction tracking system initialized
+[2017.08.17-22.32.15:799][  0]BlueprintLog: New page: Editor Load
+[2017.08.17-22.32.21:277][  0]LocalizationService: Info Localization service is disabled
+[2017.08.17-22.32.25:205][  0]LogConsoleResponse:Display: 
+[2017.08.17-22.32.25:530][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.17-22.32.25:530][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.17-22.32.26:382][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/' took 0.02s
+[2017.08.17-22.32.31:171][  0]SourceControl: Info Source control is disabled
+[2017.08.17-22.32.31:171][  0]Cmd: MAP LOAD FILE="G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.17-22.32.31:173][  0]LightingResults: New page: Lighting Build
+[2017.08.17-22.32.31:425][  0]MapCheck: New page: Map Check
+[2017.08.17-22.32.31:425][  0]LightingResults: New page: Lighting Build
+[2017.08.17-22.32.31:961][  0]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-22.32.31:970][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.17-22.32.31:971][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.17-22.32.32:194][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 223.345ms to complete.
+[2017.08.17-22.32.32:195][  0]LogFileHelpers: Loading map 'Koopy' took 1.024
+[2017.08.17-22.32.32:290][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.17-22.32.32:803][  0]LogCollectionManager: Loaded 0 collections in 0.002137 seconds
+[2017.08.17-22.32.32:902][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Collections/' took 0.01s
+[2017.08.17-22.32.32:902][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Developers/Admin/Collections/' took 0.01s
+[2017.08.17-22.32.32:902][  0]LogFileCache: Scanning file cache for directory 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Collections/' took 0.01s
+[2017.08.17-22.32.32:902][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.17-22.32.32:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2204 classes and 434 folders.
+[2017.08.17-22.32.33:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.17-22.32.33:156][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.17-22.32.33:157][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0013 seconds. Added 13 classes and 0 folders.
+[2017.08.17-22.32.33:577][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.17-22.32.33:682][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.17-22.32.33:944][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2017.08.17-22.32.34:141][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.17-22.32.34:157][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.17-22.32.34:443][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.08.17-22.32.34:443][  0]LogLoad: (Engine Initialization) Total time: 64.29 seconds
+[2017.08.17-22.32.34:443][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2017.08.17-22.32.34:443][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.17-22.32.34:460][  0]LogOcInput: OculusInput pre-init called
+[2017.08.17-22.32.34:479][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.17-22.32.34:810][  0]LogRenderer: Reallocating scene render targets to support 1124x576 NumSamples 1 (Frame:2).
+[2017.08.17-22.32.34:869][  1]LogAssetRegistry: Asset discovery search completed in 44.3675 seconds
+[2017.08.17-22.32.34:869][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.17-22.32.34:869][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2017.08.17-22.52.44:304][706]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.14/FeaturePacks/TP_VehicleAdvBP.upack)
+[2017.08.17-22.52.44:460][706]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.08.17-22.52.44:489][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/AdvancedVehicleOverview.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/AdvancedVehicleOverview.uasset"
+[2017.08.17-22.52.44:527][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/VehicleAdvGameMode.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleAdvGameMode.uasset"
+[2017.08.17-22.52.44:555][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleAdvHud.uasset"
+[2017.08.17-22.52.44:605][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset"
+[2017.08.17-22.52.44:627][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/WheelData/Vehicle_BackTireType.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/WheelData/Vehicle_BackTireType.uasset"
+[2017.08.17-22.52.44:644][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/WheelData/Vehicle_FrontTireType.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/WheelData/Vehicle_FrontTireType.uasset"
+[2017.08.17-22.52.44:661][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/WheelData/WheelBack.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/WheelData/WheelBack.uasset"
+[2017.08.17-22.52.44:678][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Blueprints/WheelData/WheelFront.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/WheelData/WheelFront.uasset"
+[2017.08.17-22.52.44:869][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap"
+[2017.08.17-22.52.50:199][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset"
+[2017.08.17-22.52.51:381][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Maps/LayerInfo/Desert_LayerInfo.uasset"
+[2017.08.17-22.52.51:404][706]LogPackFactory: Copied "../../../Templates/TP_VehicleAdvBP/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset" to "G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Maps/LayerInfo/Track_LayerInfo.uasset"
+[2017.08.17-22.52.52:037][706]LogSavePackage: Save=430.24ms
+[2017.08.17-22.52.52:037][706]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/AdvancedVehicleOverview42A65B3F4152476F161130AAB654E0FB.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/AdvancedVehicleOverview.uasset'
+[2017.08.17-22.52.52:072][706]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/AdvancedVehicleOverview.uasset
+[2017.08.17-22.53.35:536][875]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2017.08.17-22.53.50:874][159]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 111 classes and 0 folders.
+[2017.08.17-22.54.18:160][802]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.17-22.54.20:400][843]LogSavePackage: Save=653.43ms
+[2017.08.17-22.54.20:404][843]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprint72237F484A6AC90A6766CD837F96C25C.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.17-22.54.20:415][843]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.17-22.54.22:726][900]LogSavePackage: Save=672.10ms
+[2017.08.17-22.54.22:726][900]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprintD3A6AC674C9651CB52111DA1EFDAB818.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.17-22.54.22:738][900]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.17-22.54.28:023][173]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-22.54.28:076][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-22.54.28:076][173]PIE: New page: PIE session: Koopy (18/08/2017 10:54:28 pm)
+[2017.08.17-22.54.28:076][173]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-22.54.28:099][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023448s)
+[2017.08.17-22.54.28:100][173]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-22.54.28:101][173]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2017.08.17-22.54.28:101][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024674s)
+[2017.08.17-22.54.28:155][173]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-22.54.28:172][173]LogInit: FAudioDevice initialized.
+[2017.08.17-22.54.28:780][173]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-22.54.28:788][173]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-10.54.28
+[2017.08.17-22.54.28:790][173]LogWorld: Bringing up level for play took: 0.008136
+[2017.08.17-22.54.29:018][173]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2017.08.17-22.54.29:027][173]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.875
+[2017.08.17-22.54.29:116][173]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:5865).
+[2017.08.17-23.02.48:698][463]LogEditorTransaction: Undo Move Node
+[2017.08.17-23.02.49:356][484]LogEditorTransaction: Undo Move Node
+[2017.08.17-23.02.49:926][506]LogEditorTransaction: Undo Add Node
+[2017.08.17-23.04.29:949][134]LogSavePackage: Save=4073.19ms
+[2017.08.17-23.04.29:949][134]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_Auto1077FB7C74472C80FD24A4E891D294B1E.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto1.umap'
+[2017.08.17-23.04.29:961][134]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto1.umap
+[2017.08.17-23.04.29:985][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 5.558
+[2017.08.17-23.04.29:985][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.558
+[2017.08.17-23.04.29:992][134]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2017.08.17-23.04.29:992][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2017.08.17-23.04.30:168][134]LogSavePackage: Save=41.60ms
+[2017.08.17-23.04.30:168][134]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonGameMode_Auto15EC9E1AA4294FA09ED0B528599CE9DCD.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset'
+[2017.08.17-23.04.30:179][134]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto1.uasset
+[2017.08.17-23.04.30:190][134]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewPlayerController] ([1] browsable assets)...
+[2017.08.17-23.04.30:191][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewPlayerController]
+[2017.08.17-23.04.30:287][134]LogSavePackage: Save=74.07ms
+[2017.08.17-23.04.30:287][134]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController_Auto1252EE17B4D010079A4F73CA2D1E2CFB3.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/Blueprints/NewPlayerController_Auto1.uasset'
+[2017.08.17-23.04.30:292][134]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/Blueprints/NewPlayerController_Auto1.uasset
+[2017.08.17-23.04.30:292][134]LogFileHelpers: Auto-saving content packages took 0.304
+[2017.08.17-23.04.58:121][566]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.04.59:223][596]LogSavePackage: Save=70.20ms
+[2017.08.17-23.04.59:223][596]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerControllerB5DEB5E74740976C126DAEB31C256161.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.04.59:253][596]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.05.06:285][747]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.05.06:321][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.05.06:321][747]PIE: New page: PIE session: Koopy (18/08/2017 11:05:06 pm)
+[2017.08.17-23.05.06:321][747]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.05.06:344][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023050s)
+[2017.08.17-23.05.06:345][747]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.05.06:345][747]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2017.08.17-23.05.06:345][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024375s)
+[2017.08.17-23.05.06:397][747]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.05.06:422][747]LogInit: FAudioDevice initialized.
+[2017.08.17-23.05.06:506][747]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.05.06:510][747]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.05.06
+[2017.08.17-23.05.06:511][747]LogWorld: Bringing up level for play took: 0.003239
+[2017.08.17-23.05.06:521][747]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.632
+[2017.08.17-23.09.35:282][ 90]LogSavePackage: Save=595.05ms
+[2017.08.17-23.09.35:282][ 90]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy25F3CC794EC37AAB514CE08791819B89.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.17-23.09.35:322][ 90]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.17-23.09.35:416][ 90]LogFileHelpers: Saving map 'Koopy' took 3.134
+[2017.08.17-23.09.35:598][ 90]LogSavePackage: Save=50.17ms
+[2017.08.17-23.09.35:598][ 90]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonGameModeEFD1E61F4862EF756247CF970E8E16F2.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2017.08.17-23.09.35:638][ 90]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.08.17-23.09.39:871][374]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.09.39:988][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.09.39:988][374]PIE: New page: PIE session: Koopy (18/08/2017 11:09:39 pm)
+[2017.08.17-23.09.39:988][374]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.09.40:011][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023099s)
+[2017.08.17-23.09.40:012][374]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.09.40:012][374]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2017.08.17-23.09.40:012][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024577s)
+[2017.08.17-23.09.40:066][374]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.09.40:086][374]LogInit: FAudioDevice initialized.
+[2017.08.17-23.09.40:167][374]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.09.40:171][374]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.09.40
+[2017.08.17-23.09.40:172][374]LogWorld: Bringing up level for play took: 0.003972
+[2017.08.17-23.09.40:182][374]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.029
+[2017.08.17-23.10.09:234][878]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.17-23.10.16:508][254]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/VehicleAdv/Vehicle/VehiclePhysicsAsset.VehiclePhysicsAsset] ConvexElem[0] invalid
+[2017.08.17-23.10.16:509][254]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/VehicleAdv/Vehicle/VehiclePhysicsAsset.VehiclePhysicsAsset] ConvexElem[0] invalid
+[2017.08.17-23.10.16:511][254]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/VehicleAdv/Vehicle/VehiclePhysicsAsset.VehiclePhysicsAsset] ConvexElem[0] invalid
+[2017.08.17-23.10.16:512][254]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/VehicleAdv/Vehicle/VehiclePhysicsAsset.VehiclePhysicsAsset] ConvexElem[0] invalid
+[2017.08.17-23.10.29:708][ 20]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.10.29:754][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.10.29:754][ 20]PIE: New page: PIE session: Koopy (18/08/2017 11:10:29 pm)
+[2017.08.17-23.10.29:754][ 20]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.10.29:774][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019588s)
+[2017.08.17-23.10.29:774][ 20]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.10.29:775][ 20]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2017.08.17-23.10.29:775][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.020723s)
+[2017.08.17-23.10.29:827][ 20]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.10.29:846][ 20]LogInit: FAudioDevice initialized.
+[2017.08.17-23.10.29:915][ 20]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.10.29:919][ 20]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.10.29
+[2017.08.17-23.10.29:925][ 20]LogWorld: Bringing up level for play took: 0.008679
+[2017.08.17-23.10.29:934][ 20]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.781
+[2017.08.17-23.10.45:351][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.17-23.10.46:198][226]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.17-23.11.03:787][243]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.11.03:823][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.11.03:823][243]PIE: New page: PIE session: Koopy (18/08/2017 11:11:03 pm)
+[2017.08.17-23.11.03:824][243]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.11.03:843][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019332s)
+[2017.08.17-23.11.03:844][243]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.11.03:844][243]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2017.08.17-23.11.03:844][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.020678s)
+[2017.08.17-23.11.03:893][243]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.11.03:914][243]LogInit: FAudioDevice initialized.
+[2017.08.17-23.11.03:987][243]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.11.03:990][243]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.11.03
+[2017.08.17-23.11.03:991][243]LogWorld: Bringing up level for play took: 0.002932
+[2017.08.17-23.11.03:998][243]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.845
+[2017.08.17-23.11.18:714][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.17-23.11.19:301][348]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Island_Mesh)
+[2017.08.17-23.11.20:021][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.17-23.11.20:955][458]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.17-23.11.25:887][682]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.11.25:925][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.11.25:925][682]PIE: New page: PIE session: Koopy (18/08/2017 11:11:25 pm)
+[2017.08.17-23.11.25:925][682]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.11.25:943][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018259s)
+[2017.08.17-23.11.25:944][682]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.11.25:944][682]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2017.08.17-23.11.25:945][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019815s)
+[2017.08.17-23.11.25:998][682]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.11.26:015][682]LogInit: FAudioDevice initialized.
+[2017.08.17-23.11.26:090][682]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.11.26:095][682]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.11.26
+[2017.08.17-23.11.26:095][682]LogWorld: Bringing up level for play took: 0.004006
+[2017.08.17-23.11.26:102][682]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.95
+[2017.08.17-23.14.55:470][457]BlueprintLog: New page: Compile BoxPawn
+[2017.08.17-23.14.56:626][479]LogSavePackage: Save=82.97ms
+[2017.08.17-23.14.56:626][479]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoxPawn6A7FA817415E70688F0CD5B01AE2A3DC.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/BoxPawn.uasset'
+[2017.08.17-23.14.56:655][479]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/BoxPawn.uasset
+[2017.08.17-23.15.16:194][182]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.15.16:203][182]LogBlueprint:Error: [Compiler NewPlayerController] Error Can't connect pins  TargetArray  and  OutActors : Array of Vehicle Blueprint References is not compatible with Array of Box Pawn References.
+[2017.08.17-23.15.16:203][182]LogBlueprint:Error: [Compiler NewPlayerController] Error Can't connect pins  OutActors  and  TargetArray : Array of Box Pawn References is not compatible with Array of Vehicle Blueprint References.
+[2017.08.17-23.15.16:209][182]LogBlueprint:Error: [Compiler NewPlayerController] Error Invalid pin connection from ' OutActors ' to ' TargetArray '. You may have changed the type after the connections were made.
+[2017.08.17-23.15.16:400][182]BlueprintEditorCompileResults:Error: Error Can't connect pins  TargetArray  and  OutActors : Array of Vehicle Blueprint References is not compatible with Array of Box Pawn References.
+[2017.08.17-23.15.16:400][182]BlueprintEditorCompileResults:Error: Error Can't connect pins  OutActors  and  TargetArray : Array of Box Pawn References is not compatible with Array of Vehicle Blueprint References.
+[2017.08.17-23.15.16:400][182]BlueprintEditorCompileResults:Error: Error Invalid pin connection from ' OutActors ' to ' TargetArray '. You may have changed the type after the connections were made.
+[2017.08.17-23.15.16:400][182]LogBlueprint:Warning: [Compiler NewPlayerController] Warning [2626.24] Compile of NewPlayerController failed. 3 Fatal Issue(s) 0 Warning(s) [in 205 ms] (/Game/Blueprints/NewPlayerController.NewPlayerController)
+[2017.08.17-23.15.56:542][192]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.16.01:282][264]LogSavePackage: Save=57.41ms
+[2017.08.17-23.16.01:283][264]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerControllerBB2F21F84D2E832F00AA84AC81D9434F.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.16.01:315][264]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.16.46:727][ 87]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.16.46:775][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.16.46:775][ 87]PIE: New page: PIE session: Koopy (18/08/2017 11:16:46 pm)
+[2017.08.17-23.16.46:776][ 87]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.16.46:798][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022626s)
+[2017.08.17-23.16.46:799][ 87]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.16.46:799][ 87]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2017.08.17-23.16.46:800][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024080s)
+[2017.08.17-23.16.46:857][ 87]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.16.46:876][ 87]LogInit: FAudioDevice initialized.
+[2017.08.17-23.16.46:952][ 87]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.16.46:957][ 87]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.16.46
+[2017.08.17-23.16.46:958][ 87]LogWorld: Bringing up level for play took: 0.003616
+[2017.08.17-23.16.46:966][ 87]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.186
+[2017.08.17-23.17.10:593][402]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.17.12:000][447]LogSavePackage: Save=69.19ms
+[2017.08.17-23.17.12:000][447]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController938C79C149A9C714FD712B9E1F8527B8.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.17.12:036][447]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.17.12:864][485]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.17.12:907][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.17.12:908][485]PIE: New page: PIE session: Koopy (18/08/2017 11:17:12 pm)
+[2017.08.17-23.17.12:908][485]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.17.12:929][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021400s)
+[2017.08.17-23.17.12:930][485]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.17.12:930][485]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2017.08.17-23.17.12:930][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.022749s)
+[2017.08.17-23.17.12:983][485]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.17.13:003][485]LogInit: FAudioDevice initialized.
+[2017.08.17-23.17.13:080][485]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.17.13:085][485]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.17.13
+[2017.08.17-23.17.13:086][485]LogWorld: Bringing up level for play took: 0.004474
+[2017.08.17-23.17.13:099][485]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.054
+[2017.08.17-23.19.45:542][981]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.19.47:336][ 36]LogSavePackage: Save=75.89ms
+[2017.08.17-23.19.47:336][ 36]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController425814EA4CB0F64F6715988CDAFB3129.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.19.47:369][ 36]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.19.58:647][110]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.19.58:693][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.19.58:693][110]PIE: New page: PIE session: Koopy (18/08/2017 11:19:58 pm)
+[2017.08.17-23.19.58:693][110]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.19.58:718][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024274s)
+[2017.08.17-23.19.58:719][110]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.19.58:719][110]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2017.08.17-23.19.58:719][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.025724s)
+[2017.08.17-23.19.58:778][110]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.19.58:800][110]LogInit: FAudioDevice initialized.
+[2017.08.17-23.19.58:930][110]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.19.58:936][110]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.19.58
+[2017.08.17-23.19.58:937][110]LogWorld: Bringing up level for play took: 0.005750
+[2017.08.17-23.19.58:949][110]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.203
+[2017.08.17-23.20.31:479][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.17-23.21.02:053][141]LogSavePackage: Save=3043.39ms
+[2017.08.17-23.21.02:053][141]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_Auto2B5EF7AD84FFA6AE3E93C2F83872B78DE.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto2.umap'
+[2017.08.17-23.21.02:072][141]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto2.umap
+[2017.08.17-23.21.02:092][141]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 3.368
+[2017.08.17-23.21.02:092][141]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.368
+[2017.08.17-23.26.13:389][918]LogSavePackage: Save=63.79ms
+[2017.08.17-23.26.13:394][918]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoxPawnC52012374FA6D685DA1AA28BBFCD6BFD.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/BoxPawn.uasset'
+[2017.08.17-23.26.13:410][918]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/BoxPawn.uasset
+[2017.08.17-23.26.18:796][141]LogEditorViewport: Clicking on Actor (LMB): BoxPawn_C (BoxPawn)
+[2017.08.17-23.28.02:149][156]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.28.02:197][156]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.28.02:197][156]PIE: New page: PIE session: Koopy (18/08/2017 11:28:02 pm)
+[2017.08.17-23.28.02:197][156]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.28.02:218][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020671s)
+[2017.08.17-23.28.02:219][156]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.28.02:219][156]LogPlayLevel: PIE: World Init took: (0.001194s)
+[2017.08.17-23.28.02:219][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.022168s)
+[2017.08.17-23.28.02:280][156]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.28.02:299][156]LogInit: FAudioDevice initialized.
+[2017.08.17-23.28.02:379][156]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.28.02:383][156]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.28.02
+[2017.08.17-23.28.02:384][156]LogWorld: Bringing up level for play took: 0.004050
+[2017.08.17-23.28.02:392][156]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.76
+[2017.08.17-23.29.06:366][107]LogSavePackage: Save=887.18ms
+[2017.08.17-23.29.06:366][107]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy755766CC4D428BD5F94A29BB0DCCD00F.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.17-23.29.06:418][107]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.17-23.29.06:680][107]LogSavePackage: Save=50.44ms
+[2017.08.17-23.29.06:680][107]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_BuiltData2F4C4F394FD55EBB380ADA860C1D9FED.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset'
+[2017.08.17-23.29.06:699][107]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset
+[2017.08.17-23.33.22:480][705]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.33.23:708][742]LogSavePackage: Save=79.02ms
+[2017.08.17-23.33.23:709][742]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController09B2832D4374B8F69DC3F89F50DE6D33.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.33.23:749][742]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.33.36:320][ 46]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.33.36:364][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.33.36:364][ 46]PIE: New page: PIE session: Koopy (18/08/2017 11:33:36 pm)
+[2017.08.17-23.33.36:364][ 46]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.33.36:385][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020798s)
+[2017.08.17-23.33.36:386][ 46]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.33.36:387][ 46]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.08.17-23.33.36:387][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.022558s)
+[2017.08.17-23.33.36:444][ 46]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.33.36:466][ 46]LogInit: FAudioDevice initialized.
+[2017.08.17-23.33.36:538][ 46]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.33.36:541][ 46]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.33.36
+[2017.08.17-23.33.36:542][ 46]LogWorld: Bringing up level for play took: 0.003216
+[2017.08.17-23.33.36:549][ 46]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.603
+[2017.08.17-23.39.10:623][806]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 0.020
+[2017.08.17-23.39.10:626][806]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2017.08.17-23.39.10:627][806]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2017.08.17-23.39.10:800][806]LogSavePackage: Save=36.85ms
+[2017.08.17-23.39.10:800][806]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonGameMode_Auto33FCAA5A24EDD7C43BAC31CA281526604.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto3.uasset'
+[2017.08.17-23.39.10:808][806]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto3.uasset
+[2017.08.17-23.39.10:808][806]LogFileHelpers: Auto-saving content packages took 0.184
+[2017.08.17-23.41.11:994][355]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BoxPawn_C_104' or package '/Engine/Transient'.
+[2017.08.17-23.41.11:994][355]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BoxPawn_C_1' or package '/Engine/Transient'.
+[2017.08.17-23.41.11:994][355]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BoxPawn_C_0' or package '/Engine/Transient'.
+[2017.08.17-23.41.11:994][355]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BoxPawn_C_103' or package '/Engine/Transient'.
+[2017.08.17-23.41.17:960][696]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewPlayerController_C_106' or package '/Engine/Transient'.
+[2017.08.17-23.41.17:960][696]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewPlayerController_C_3' or package '/Engine/Transient'.
+[2017.08.17-23.41.17:960][696]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewPlayerController_C_2' or package '/Engine/Transient'.
+[2017.08.17-23.41.17:960][696]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewPlayerController_C_105' or package '/Engine/Transient'.
+[2017.08.17-23.42.33:558][949]BlueprintLog: New page: Compile BoxPawn
+[2017.08.17-23.42.34:693][980]LogSavePackage: Save=72.66ms
+[2017.08.17-23.42.34:694][980]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/BoxPawnC767FE924448966B68EACE8AA1CE4F7A.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/BoxPawn.uasset'
+[2017.08.17-23.42.34:714][980]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/BoxPawn.uasset
+[2017.08.17-23.46.02:210][989]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.46.03:495][ 28]LogSavePackage: Save=84.36ms
+[2017.08.17-23.46.03:495][ 28]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController8F8672D54DEBD38DE7DB898486AA0D5D.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.46.03:523][ 28]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.46.08:766][268]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.46.08:814][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.46.08:814][268]PIE: New page: PIE session: Koopy (18/08/2017 11:46:08 pm)
+[2017.08.17-23.46.08:815][268]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.46.08:838][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023042s)
+[2017.08.17-23.46.08:839][268]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.46.08:839][268]LogPlayLevel: PIE: World Init took: (0.001256s)
+[2017.08.17-23.46.08:839][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024645s)
+[2017.08.17-23.46.08:895][268]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.46.08:916][268]LogInit: FAudioDevice initialized.
+[2017.08.17-23.46.09:003][268]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.46.09:008][268]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.46.09
+[2017.08.17-23.46.09:009][268]LogWorld: Bringing up level for play took: 0.003829
+[2017.08.17-23.46.09:017][268]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.136
+[2017.08.17-23.46.35:772][460]LogEditorViewport: Clicking on Actor (LMB): BoxPawn_C (BoxPawn)
+[2017.08.17-23.49.33:830][980]LogSavePackage: Save=789.34ms
+[2017.08.17-23.49.33:830][980]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_Auto437FE609146F7B1B12A8F2D80A11A6E68.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto4.umap'
+[2017.08.17-23.49.33:846][980]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto4.umap
+[2017.08.17-23.49.33:873][980]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 2.241
+[2017.08.17-23.49.33:873][980]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.241
+[2017.08.17-23.49.33:878][980]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2017.08.17-23.49.33:878][980]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2017.08.17-23.49.34:061][980]LogSavePackage: Save=47.01ms
+[2017.08.17-23.49.34:061][980]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonGameMode_Auto47352DCAA4F93DA3FEB43E0BEC09039CE.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto4.uasset'
+[2017.08.17-23.49.34:083][980]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto4.uasset
+[2017.08.17-23.49.34:083][980]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.08.17-23.54.45:352][518]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.17-23.54.48:410][628]LogSavePackage: Save=97.22ms
+[2017.08.17-23.54.48:410][628]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController4C7EFD5A4A2DBBF099349BA7E2E1D7AE.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.54.48:454][628]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.55.36:164][475]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.17-23.55.36:199][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.17-23.55.36:199][475]PIE: New page: PIE session: Koopy (18/08/2017 11:55:36 pm)
+[2017.08.17-23.55.36:199][475]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.17-23.55.36:220][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021044s)
+[2017.08.17-23.55.36:221][475]LogAIModule: Creating AISystem for world Koopy
+[2017.08.17-23.55.36:221][475]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.08.17-23.55.36:221][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.022081s)
+[2017.08.17-23.55.36:278][475]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.17-23.55.36:300][475]LogInit: FAudioDevice initialized.
+[2017.08.17-23.55.36:386][475]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.17-23.55.36:391][475]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-11.55.36
+[2017.08.17-23.55.36:392][475]LogWorld: Bringing up level for play took: 0.004396
+[2017.08.17-23.55.36:401][475]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.751
+[2017.08.17-23.55.55:498][103]LogEditorViewport: Clicking on Actor (LMB): BoxPawn_C (BoxPawn)
+[2017.08.17-23.55.58:898][274]Cmd: DELETE
+[2017.08.17-23.55.58:898][274]Cmd: ACTOR DELETE
+[2017.08.17-23.55.58:899][274]LogEditorActor: Deleted Actor: BoxPawn_C
+[2017.08.17-23.55.58:965][274]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2017.08.17-23.56.13:574][927]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BoxPawn_C_128' or package '/Engine/Transient'.
+[2017.08.17-23.56.13:574][927]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BoxPawn_C_127' or package '/Engine/Transient'.
+[2017.08.17-23.56.13:574][927]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BoxPawn_C_5' or package '/Engine/Transient'.
+[2017.08.17-23.56.13:574][927]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BoxPawn_C_4' or package '/Engine/Transient'.
+[2017.08.17-23.56.21:706][141]LogSavePackage: Save=2857.16ms
+[2017.08.17-23.56.21:706][141]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy2580B54843770089534DEBA2667C004A.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.17-23.56.22:895][141]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.17-23.56.22:983][141]LogFileHelpers: Saving map 'Koopy' took 4.695
+[2017.08.17-23.56.23:182][141]LogSavePackage: Save=87.06ms
+[2017.08.17-23.56.23:182][141]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController00A2D7F2465B0059F2040CBAA4CB478C.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.17-23.56.23:227][141]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.17-23.56.23:408][141]LogSavePackage: Save=40.24ms
+[2017.08.17-23.56.23:408][141]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonGameModeF3E8488B4882020E035A8F9B6AF2D2D5.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2017.08.17-23.56.23:446][141]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.08.18-00.35.23:525][708]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.18-00.37.23:831][624]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.18-00.37.23:877][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-00.37.23:884][624]PIE: New page: PIE session: Koopy (19/08/2017 12:37:23 am)
+[2017.08.18-00.37.23:884][624]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.18-00.37.23:929][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045087s)
+[2017.08.18-00.37.23:933][624]LogAIModule: Creating AISystem for world Koopy
+[2017.08.18-00.37.23:933][624]LogPlayLevel: PIE: World Init took: (0.003738s)
+[2017.08.18-00.37.23:933][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.049159s)
+[2017.08.18-00.37.24:014][624]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.18-00.37.24:038][624]LogInit: FAudioDevice initialized.
+[2017.08.18-00.37.24:150][624]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-00.37.24:164][624]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-12.37.24
+[2017.08.18-00.37.24:166][624]LogWorld: Bringing up level for play took: 0.008810
+[2017.08.18-00.37.24:183][624]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.031
+[2017.08.18-00.45.00:996][570]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.08.18-00.45.02:867][632]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.18-00.45.02:914][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-00.45.02:914][632]PIE: New page: PIE session: Koopy (19/08/2017 12:45:02 am)
+[2017.08.18-00.45.02:914][632]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.18-00.45.02:934][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020206s)
+[2017.08.18-00.45.02:935][632]LogAIModule: Creating AISystem for world Koopy
+[2017.08.18-00.45.02:936][632]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2017.08.18-00.45.02:936][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.021933s)
+[2017.08.18-00.45.03:008][632]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.18-00.45.03:045][632]LogInit: FAudioDevice initialized.
+[2017.08.18-00.45.03:143][632]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-00.45.03:149][632]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-12.45.03
+[2017.08.18-00.45.03:150][632]LogWorld: Bringing up level for play took: 0.005300
+[2017.08.18-00.45.03:175][632]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.023
+[2017.08.18-00.45.40:799][531]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.08.18-00.45.42:120][553]LogSavePackage: Save=273.67ms
+[2017.08.18-00.45.42:123][553]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/ThirdPersonCharacter00B5EFB844A278490BEBDA80BB26C67B.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.08.18-00.45.42:170][553]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.08.18-00.46.00:200][257]LogBlueprint:Warning: [Compiler ] Warning Pasted node  K2Node_Event_0   conflicted with  K2Node_Event_3363  and was replaced as a Custom Event!
+[2017.08.18-00.46.00:273][257]BlueprintEditorCompileResults:Warning: Warning Pasted node  K2Node_Event_0   conflicted with  K2Node_Event_3363  and was replaced as a Custom Event!
+[2017.08.18-00.46.05:889][470]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-00.46.07:620][520]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.18-00.46.07:650][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-00.46.07:651][520]PIE: New page: PIE session: Koopy (19/08/2017 12:46:07 am)
+[2017.08.18-00.46.07:651][520]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.18-00.46.07:675][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023977s)
+[2017.08.18-00.46.07:676][520]LogAIModule: Creating AISystem for world Koopy
+[2017.08.18-00.46.07:676][520]LogPlayLevel: PIE: World Init took: (0.001021s)
+[2017.08.18-00.46.07:676][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.025340s)
+[2017.08.18-00.46.07:731][520]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.18-00.46.07:754][520]LogInit: FAudioDevice initialized.
+[2017.08.18-00.46.07:846][520]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-00.46.07:849][520]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-12.46.07
+[2017.08.18-00.46.07:850][520]LogWorld: Bringing up level for play took: 0.002646
+[2017.08.18-00.46.07:867][520]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.714
+[2017.08.18-00.46.32:949][625]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=269.54 Y=16.02 Z=0.00 Location: X=-1427.15 Y=1107.40 Z=3316.26 Normal: X=-0.48 Y=-0.03 Z=0.88 PenetrationDepth:5.868 Actor:VehicleBlueprint_376 Component:VehicleMesh BoneName:Vehicle (0 other events since notify)
+[2017.08.18-00.47.17:478][137]LogSavePackage: Save=648.67ms
+[2017.08.18-00.47.17:478][137]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_Auto5392066E54B565AB41E86E99C7E6288D8.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto5.umap'
+[2017.08.18-00.47.17:499][137]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto5.umap
+[2017.08.18-00.47.17:525][137]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 3.291
+[2017.08.18-00.47.17:525][137]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.291
+[2017.08.18-00.47.18:681][137]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([1] browsable assets)...
+[2017.08.18-00.47.18:719][137]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
+[2017.08.18-00.47.18:719][137]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
+[2017.08.18-00.47.20:753][137]LogSavePackage: Save=741.12ms
+[2017.08.18-00.47.20:753][137]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprint_Auto57483CB0F4C5198AB0D1ADB81A4EA4C2E.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto5.uasset'
+[2017.08.18-00.47.20:759][137]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto5.uasset
+[2017.08.18-00.47.20:759][137]LogFileHelpers: Auto-saving content packages took 3.232
+[2017.08.18-00.48.46:148][943]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-00.49.11:137][859]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-00.49.12:854][879]LogSavePackage: Save=690.49ms
+[2017.08.18-00.49.12:854][879]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprint9A8EB0A444C8F6D87A6C389EB4E22DB9.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.18-00.49.12:912][879]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.18-00.51.17:697][284]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.18-00.51.20:199][318]LogSavePackage: Save=126.70ms
+[2017.08.18-00.51.20:199][318]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController749506A746A792406E12279E300ED494.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.18-00.51.20:243][318]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.18-00.51.21:057][355]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.18-00.51.21:105][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-00.51.21:106][355]PIE: New page: PIE session: Koopy (19/08/2017 12:51:21 am)
+[2017.08.18-00.51.21:106][355]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.18-00.51.21:129][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023549s)
+[2017.08.18-00.51.21:130][355]LogAIModule: Creating AISystem for world Koopy
+[2017.08.18-00.51.21:130][355]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.08.18-00.51.21:130][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024453s)
+[2017.08.18-00.51.21:193][355]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.18-00.51.21:211][355]LogInit: FAudioDevice initialized.
+[2017.08.18-00.51.21:300][355]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-00.51.21:304][355]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-12.51.21
+[2017.08.18-00.51.21:304][355]LogWorld: Bringing up level for play took: 0.003357
+[2017.08.18-00.51.21:315][355]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.162
+[2017.08.18-00.51.52:264][787]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-11.84 Y=287.20 Z=0.00 Location: X=-1378.59 Y=1075.66 Z=3349.08 Normal: X=-0.90 Y=0.43 Z=0.00 PenetrationDepth:37.213 Actor:VehicleBlueprint_376 Component:VehicleMesh BoneName:Antenna7 (0 other events since notify)
+[2017.08.18-00.52.27:007][312]LogEditorTransaction: Undo Edit Comment Color
+[2017.08.18-00.52.27:398][320]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.27:867][339]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.28:103][347]LogEditorTransaction: Undo Add Node
+[2017.08.18-00.52.28:295][354]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.28:451][359]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.28:644][366]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.28:805][372]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.28:973][378]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.29:144][383]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.29:337][390]LogEditorTransaction: Undo Create Pin Link
+[2017.08.18-00.52.29:506][395]LogEditorTransaction: Undo Create Pin Link
+[2017.08.18-00.52.29:866][410]LogEditorTransaction: Undo Move Nodes
+[2017.08.18-00.52.30:076][417]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.18-00.52.30:321][426]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.30:512][433]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.30:695][440]LogEditorTransaction: Undo Edit Comment Color
+[2017.08.18-00.52.30:935][449]LogEditorTransaction: Undo Edit Comment Color
+[2017.08.18-00.52.31:112][454]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.31:306][460]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.31:471][467]LogEditorTransaction: Undo Add Node
+[2017.08.18-00.52.31:666][473]LogEditorTransaction: Undo Delete current selection
+[2017.08.18-00.52.31:838][479]LogEditorTransaction: Undo Delete current selection
+[2017.08.18-00.52.32:048][487]LogEditorTransaction: Undo Rename Node
+[2017.08.18-00.52.32:229][493]LogEditorTransaction: Undo Add Node
+[2017.08.18-00.52.32:407][498]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.32:595][504]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.32:778][511]LogEditorTransaction: Undo Create Pin Link
+[2017.08.18-00.52.32:943][516]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.33:155][523]LogEditorTransaction: Undo Create Pin Link
+[2017.08.18-00.52.33:359][530]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.33:558][537]LogEditorTransaction: Undo Delete current selection
+[2017.08.18-00.52.33:737][542]LogEditorTransaction: Undo Move Node
+[2017.08.18-00.52.33:927][548]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.18-00.52.34:123][554]LogEditorTransaction: Undo Delete current selection
+[2017.08.18-00.52.34:328][561]LogEditorTransaction: Undo Edit Comment Color
+[2017.08.18-00.52.35:952][623]BlueprintLog: New page: Compile NewPlayerController
+[2017.08.18-00.52.37:218][654]LogSavePackage: Save=104.42ms
+[2017.08.18-00.52.37:218][654]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/NewPlayerController1B03591E4E2B5A8AA10F148A1D21557C.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset'
+[2017.08.18-00.52.37:256][654]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Blueprints/NewPlayerController.uasset
+[2017.08.18-00.57.38:002][723]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-00.57.40:957][740]LogSavePackage: Save=731.25ms
+[2017.08.18-00.57.40:957][740]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprintEBBF4AB243DA061A969F989D41A52A11.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.18-00.57.43:322][740]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.18-00.58.35:060][826]LogSavePackage: Save=1776.58ms
+[2017.08.18-00.58.35:060][826]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_Auto6D12CFBCA4B3D05187C000D8C1D4658A4.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto6.umap'
+[2017.08.18-00.58.35:080][826]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto6.umap
+[2017.08.18-00.58.35:104][826]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 6.654
+[2017.08.18-00.58.35:104][826]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.654
+[2017.08.18-01.00.05:588][356]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-01.00.07:868][404]LogSavePackage: Save=740.77ms
+[2017.08.18-01.00.07:868][404]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprint4C2396AA4873F81ECB4E858D92F0CAEB.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.18-01.00.07:900][404]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.18-01.00.09:106][460]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.18-01.00.09:145][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.18-01.00.09:145][460]PIE: New page: PIE session: Koopy (19/08/2017 1:00:09 am)
+[2017.08.18-01.00.09:145][460]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.18-01.00.09:168][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023211s)
+[2017.08.18-01.00.09:169][460]LogAIModule: Creating AISystem for world Koopy
+[2017.08.18-01.00.09:170][460]LogPlayLevel: PIE: World Init took: (0.001311s)
+[2017.08.18-01.00.09:170][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.024890s)
+[2017.08.18-01.00.09:224][460]LogInit: XAudio2 using 'Speakers (Logitech G930 Gaming Headset)' : 8 channels at 48 kHz using 16 bits per sample (channel mask 0x63f)
+[2017.08.18-01.00.09:244][460]LogInit: FAudioDevice initialized.
+[2017.08.18-01.00.09:323][460]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.18-01.00.09:327][460]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.18-13.00.09
+[2017.08.18-01.00.09:328][460]LogWorld: Bringing up level for play took: 0.002968
+[2017.08.18-01.00.09:341][460]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.188
+[2017.08.18-01.00.22:005][139]LogCharacterMovement: ThirdPersonCharacter_C_0 is stuck and failed to move! Velocity: X=26.73 Y=-193.51 Z=0.00 Location: X=-2104.47 Y=1076.81 Z=3245.09 Normal: X=-0.95 Y=0.31 Z=0.05 PenetrationDepth:18.985 Actor:VehicleBlueprint_376 Component:VehicleMesh BoneName:Antenna11 (0 other events since notify)
+[2017.08.18-01.00.34:752][801]BlueprintLog: New page: Compile VehicleBlueprint
+[2017.08.18-01.00.37:436][821]LogSavePackage: Save=1787.85ms
+[2017.08.18-01.00.37:436][821]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/VehicleBlueprintAE8CA89341C8EDB35D369DB93A7F9D46.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.18-01.00.37:485][821]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.18-01.08.21:080][552]LogSavePackage: Save=1750.34ms
+[2017.08.18-01.08.21:081][552]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy16EDB0EA4BBB0FF9A43FD2ACAA5E2DDC.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.18-01.08.21:119][552]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.18-01.08.22:512][552]LogSavePackage: Save=1184.32ms
+[2017.08.18-01.08.22:518][552]LogSavePackage: Moving 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_BuiltData2B4F3B2A4F2D19A495BFC9A02622B5A7.tmp' to 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset'
+[2017.08.18-01.08.22:537][552]LogSavePackage:Display: Finished SavePackage G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset
+[2017.08.18-01.08.26:545][728]Cmd: QUIT_EDITOR
+[2017.08.18-01.08.27:080][728]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.18-01.08.27:174][728]LogExit: Preparing to exit.
+[2017.08.18-01.08.27:801][728]LogExit: Editor shut down
+[2017.08.18-01.08.27:803][728]LogExit: Transaction tracking system shut down
+[2017.08.18-01.08.28:408][728]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.18-01.08.28:411][728]LogExit: Object subsystem successfully closed.
+[2017.08.18-01.08.28:483][728]LogD3D11RHI: Shutdown
+[2017.08.18-01.08.28:484][728]LogD3D11RHI: CleanupD3DDevice
+[2017.08.18-01.08.28:889][728]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.18-01.08.29:068][728]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.18-01.08.29:068][728]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC9838154-4C34-A636-3C5F-5EA39CE4D5B9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=ef2218324686f7bbb554618b9155e6ed%7Ca7cb326211bb48019c2e8262668286f4%7C9871ca4d-29c1-4115-9ca1-213cd9c00d3e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.18-01.08.29:081][728]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (247)
+[2017.08.18-01.08.29:082][728]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (246)
+[2017.08.18-01.08.29:082][728]LogModuleManager: Shutting down and abandoning module BlueprintGraph (245)
+[2017.08.18-01.08.29:082][728]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (244)
+[2017.08.18-01.08.29:084][728]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (243)
+[2017.08.18-01.08.29:084][728]LogModuleManager: Shutting down and abandoning module CrashTracker (242)
+[2017.08.18-01.08.29:085][728]LogModuleManager: Shutting down and abandoning module SceneOutliner (241)
+[2017.08.18-01.08.29:085][728]LogModuleManager: Shutting down and abandoning module WidgetCarousel (240)
+[2017.08.18-01.08.29:085][728]LogModuleManager: Shutting down and abandoning module AddContentDialog (239)
+[2017.08.18-01.08.29:086][728]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.14/FeaturePacks/' was aborted.
+[2017.08.18-01.08.29:092][728]LogModuleManager: Shutting down and abandoning module GameplayTags (238)
+[2017.08.18-01.08.29:092][728]LogModuleManager: Shutting down and abandoning module CollectionManager (237)
+[2017.08.18-01.08.29:094][728]LogDirectoryWatcher: A directory notification for 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Collections/' was aborted.
+[2017.08.18-01.08.29:094][728]LogDirectoryWatcher: A directory notification for 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/Developers/Admin/Collections/' was aborted.
+[2017.08.18-01.08.29:094][728]LogDirectoryWatcher: A directory notification for 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Saved/Collections/' was aborted.
+[2017.08.18-01.08.29:094][728]LogModuleManager: Shutting down and abandoning module EditorWidgets (236)
+[2017.08.18-01.08.29:094][728]LogModuleManager: Shutting down and abandoning module StatsViewer (235)
+[2017.08.18-01.08.29:096][728]LogModuleManager: Shutting down and abandoning module FoliageEdit (234)
+[2017.08.18-01.08.29:096][728]LogModuleManager: Shutting down and abandoning module LandscapeEditor (233)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (232)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module ActorPickerMode (231)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module GeometryMode (230)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module TextureAlignMode (229)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module BspMode (228)
+[2017.08.18-01.08.29:098][728]LogModuleManager: Shutting down and abandoning module HardwareSurvey (227)
+[2017.08.18-01.08.29:099][728]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (226)
+[2017.08.18-01.08.29:099][728]LogModuleManager: Shutting down and abandoning module AutomationWorker (225)
+[2017.08.18-01.08.29:100][728]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (224)
+[2017.08.18-01.08.29:101][728]LogModuleManager: Shutting down and abandoning module PlacementMode (223)
+[2017.08.18-01.08.29:102][728]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (222)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (221)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (220)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (219)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (218)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module Media (217)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (216)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (215)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module CharacterAI (214)
+[2017.08.18-01.08.29:104][728]LogModuleManager: Shutting down and abandoning module SequenceRecorder (213)
+[2017.08.18-01.08.29:106][728]LogModuleManager: Shutting down and abandoning module AudioCapture (212)
+[2017.08.18-01.08.29:106][728]LogModuleManager: Shutting down and abandoning module SmartSnapping (211)
+[2017.08.18-01.08.29:106][728]LogModuleManager: Shutting down and abandoning module SessionServices (210)
+[2017.08.18-01.08.29:106][728]LogModuleManager: Shutting down and abandoning module ViewportSnapping (209)
+[2017.08.18-01.08.29:107][728]LogModuleManager: Shutting down and abandoning module ViewportInteraction (208)
+[2017.08.18-01.08.29:107][728]LogModuleManager: Shutting down and abandoning module LogVisualizer (207)
+[2017.08.18-01.08.29:109][728]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (206)
+[2017.08.18-01.08.29:111][728]LogModuleManager: Shutting down and abandoning module IntroTutorials (205)
+[2017.08.18-01.08.29:112][728]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (204)
+[2017.08.18-01.08.29:112][728]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (203)
+[2017.08.18-01.08.29:113][728]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (202)
+[2017.08.18-01.08.29:113][728]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (201)
+[2017.08.18-01.08.29:486][728]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (200)
+[2017.08.18-01.08.29:486][728]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (199)
+[2017.08.18-01.08.29:486][728]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (198)
+[2017.08.18-01.08.29:486][728]LogModuleManager: Shutting down and abandoning module InputBindingEditor (197)
+[2017.08.18-01.08.29:487][728]LogModuleManager: Shutting down and abandoning module NiagaraEditor (196)
+[2017.08.18-01.08.29:489][728]LogModuleManager: Shutting down and abandoning module MergeActors (195)
+[2017.08.18-01.08.29:489][728]LogModuleManager: Shutting down and abandoning module SizeMap (194)
+[2017.08.18-01.08.29:490][728]LogModuleManager: Shutting down and abandoning module TreeMap (193)
+[2017.08.18-01.08.29:492][728]LogModuleManager: Shutting down and abandoning module ReferenceViewer (192)
+[2017.08.18-01.08.29:492][728]LogModuleManager: Shutting down and abandoning module LocalizationService (191)
+[2017.08.18-01.08.29:492][728]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (190)
+[2017.08.18-01.08.29:494][728]LogModuleManager: Shutting down and abandoning module HardwareTargeting (189)
+[2017.08.18-01.08.29:494][728]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (188)
+[2017.08.18-01.08.29:495][728]LogModuleManager: Shutting down and abandoning module UndoHistory (187)
+[2017.08.18-01.08.29:495][728]LogModuleManager: Shutting down and abandoning module UserFeedback (186)
+[2017.08.18-01.08.29:495][728]LogModuleManager: Shutting down and abandoning module XmlParser (185)
+[2017.08.18-01.08.29:496][728]LogModuleManager: Shutting down and abandoning module Blutility (184)
+[2017.08.18-01.08.29:497][728]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (183)
+[2017.08.18-01.08.29:497][728]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (182)
+[2017.08.18-01.08.29:498][728]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (181)
+[2017.08.18-01.08.29:498][728]LogModuleManager: Shutting down and abandoning module SettingsEditor (180)
+[2017.08.18-01.08.29:500][728]LogModuleManager: Shutting down and abandoning module ProjectLauncher (179)
+[2017.08.18-01.08.29:501][728]LogModuleManager: Shutting down and abandoning module SessionFrontend (178)
+[2017.08.18-01.08.29:502][728]LogModuleManager: Shutting down and abandoning module ProfilerClient (177)
+[2017.08.18-01.08.29:503][728]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (176)
+[2017.08.18-01.08.29:504][728]LogModuleManager: Shutting down and abandoning module DeviceManager (175)
+[2017.08.18-01.08.29:548][728]LogModuleManager: Shutting down and abandoning module AutomationController (174)
+[2017.08.18-01.08.29:555][728]LogModuleManager: Shutting down and abandoning module AutomationWindow (173)
+[2017.08.18-01.08.29:557][728]LogModuleManager: Shutting down and abandoning module Layers (172)
+[2017.08.18-01.08.29:562][728]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (171)
+[2017.08.18-01.08.29:562][728]LogModuleManager: Shutting down and abandoning module DetailCustomizations (170)
+[2017.08.18-01.08.29:564][728]LogModuleManager: Shutting down and abandoning module PackagesDialog (169)
+[2017.08.18-01.08.29:564][728]LogModuleManager: Shutting down and abandoning module AnimGraph (168)
+[2017.08.18-01.08.29:564][728]LogModuleManager: Shutting down and abandoning module Persona (167)
+[2017.08.18-01.08.29:565][728]LogModuleManager: Shutting down and abandoning module Kismet (166)
+[2017.08.18-01.08.29:574][728]LogModuleManager: Shutting down and abandoning module GraphEditor (165)
+[2017.08.18-01.08.29:574][728]LogModuleManager: Shutting down and abandoning module ClassViewer (164)
+[2017.08.18-01.08.29:576][728]LogModuleManager: Shutting down and abandoning module Toolbox (163)
+[2017.08.18-01.08.29:577][728]LogModuleManager: Shutting down and abandoning module ModuleUI (162)
+[2017.08.18-01.08.29:577][728]LogModuleManager: Shutting down and abandoning module MovieSceneTools (161)
+[2017.08.18-01.08.29:578][728]LogModuleManager: Shutting down and abandoning module OutputLog (160)
+[2017.08.18-01.08.29:579][728]LogModuleManager: Shutting down and abandoning module GammaUI (159)
+[2017.08.18-01.08.29:580][728]LogModuleManager: Shutting down and abandoning module Documentation (158)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module Niagara (157)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (156)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module AnalyticsET (155)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module PortalServices (154)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module PortalRpc (153)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module MessagingRpc (152)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module GameplayDebugger (151)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module AITestSuite (150)
+[2017.08.18-01.08.29:581][728]LogModuleManager: Shutting down and abandoning module AIModule (149)
+[2017.08.18-01.08.29:582][728]LogModuleManager: Shutting down and abandoning module ProfilerService (148)
+[2017.08.18-01.08.29:605][728]LogModuleManager: Shutting down and abandoning module TaskGraph (147)
+[2017.08.18-01.08.29:606][728]LogModuleManager: Shutting down and abandoning module SubstanceEditor (146)
+[2017.08.18-01.08.29:608][728]LogModuleManager: Shutting down and abandoning module SlateRemote (145)
+[2017.08.18-01.08.29:608][728]LogModuleManager: Shutting down and abandoning module SteamVRController (144)
+[2017.08.18-01.08.29:608][728]LogModuleManager: Shutting down and abandoning module SteamVR (143)
+[2017.08.18-01.08.29:608][728]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (142)
+[2017.08.18-01.08.29:609][728]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (141)
+[2017.08.18-01.08.29:609][728]LogModuleManager: Shutting down and abandoning module OculusLibrary (140)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module OculusInput (139)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (138)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (137)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module CableComponent (136)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (135)
+[2017.08.18-01.08.29:610][728]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (133)
+[2017.08.18-01.08.29:613][728]LogModuleManager: Shutting down and abandoning module HTML5Networking (132)
+[2017.08.18-01.08.29:613][728]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (131)
+[2017.08.18-01.08.29:613][728]LogModuleManager: Shutting down and abandoning module GeometryCache (130)
+[2017.08.18-01.08.29:613][728]LogModuleManager: Shutting down and abandoning module AlembicLibrary (129)
+[2017.08.18-01.08.29:614][728]LogModuleManager: Shutting down and abandoning module AlembicImporter (128)
+[2017.08.18-01.08.29:614][728]LogModuleManager: Shutting down and abandoning module SuperSearch (127)
+[2017.08.18-01.08.29:614][728]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (126)
+[2017.08.18-01.08.29:614][728]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (125)
+[2017.08.18-01.08.29:614][728]LogModuleManager: Shutting down and abandoning module PluginBrowser (124)
+[2017.08.18-01.08.29:616][728]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (123)
+[2017.08.18-01.08.29:617][728]LogModuleManager: Shutting down and abandoning module EpicSurvey (122)
+[2017.08.18-01.08.29:619][728]LogModuleManager: Shutting down and abandoning module DesktopPlatform (121)
+[2017.08.18-01.08.29:619][728]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (120)
+[2017.08.18-01.08.29:619][728]LogModuleManager: Shutting down and abandoning module UObjectPlugin (119)
+[2017.08.18-01.08.29:619][728]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (118)
+[2017.08.18-01.08.29:621][728]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (117)
+[2017.08.18-01.08.29:622][728]LogModuleManager: Shutting down and abandoning module SourceControl (116)
+[2017.08.18-01.08.29:622][728]LogModuleManager: Shutting down and abandoning module GitSourceControl (115)
+[2017.08.18-01.08.29:623][728]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (114)
+[2017.08.18-01.08.29:623][728]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (113)
+[2017.08.18-01.08.29:623][728]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (112)
+[2017.08.18-01.08.29:623][728]LogModuleManager: Shutting down and abandoning module MeshPaint (111)
+[2017.08.18-01.08.29:624][728]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (110)
+[2017.08.18-01.08.29:624][728]LogModuleManager: Shutting down and abandoning module HotReload (109)
+[2017.08.18-01.08.29:625][728]LogModuleManager: Shutting down and abandoning module MainFrame (108)
+[2017.08.18-01.08.29:625][728]LogModuleManager: Shutting down and abandoning module LevelEditor (107)
+[2017.08.18-01.08.29:628][728]LogModuleManager: Shutting down and abandoning module ContentBrowser (106)
+[2017.08.18-01.08.29:630][728]LogModuleManager: Shutting down and abandoning module Paper2DEditor (105)
+[2017.08.18-01.08.29:632][728]LogModuleManager: Shutting down and abandoning module UdpMessaging (104)
+[2017.08.18-01.08.29:733][728]LogModuleManager: Shutting down and abandoning module TcpMessaging (103)
+[2017.08.18-01.08.29:833][728]LogModuleManager: Shutting down and abandoning module SubstanceCore (102)
+[2017.08.18-01.08.29:834][728]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.08.18-01.08.29:834][728]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.08.18-01.08.29:835][728]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.08.18-01.08.29:835][728]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.08.18-01.08.29:837][728]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.08.18-01.08.29:839][728]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.08.18-01.08.29:840][728]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.08.18-01.08.29:842][728]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.08.18-01.08.29:844][728]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.08.18-01.08.29:844][728]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.08.18-01.08.29:844][728]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.08.18-01.08.29:847][728]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.08.18-01.08.29:849][728]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.08.18-01.08.29:851][728]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.08.18-01.08.29:854][728]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.08.18-01.08.29:854][728]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.08.18-01.08.29:863][728]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.08.18-01.08.29:863][728]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.18-01.08.29:864][728]LogDirectoryWatcher: A directory notification for 'G:/Jarlin School/2017/Semester 2/GD2J03 - Rapid Prototyping/My Work/Prototype 3/TOA-TIME/KoopySandwich/Content/' was aborted.
+[2017.08.18-01.08.29:865][728]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.18-01.08.29:869][728]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.08.18-01.08.30:296][728]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.08.18-01.08.30:296][728]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.08.18-01.08.30:298][728]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.08.18-01.08.30:299][728]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.08.18-01.08.30:299][728]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.08.18-01.08.30:300][728]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.08.18-01.08.30:301][728]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.08.18-01.08.30:304][728]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.08.18-01.08.30:357][728]LogDerivedDataCache: Shutdown
+[2017.08.18-01.08.30:357][728]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.08.18-01.08.30:358][728]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.08.18-01.08.30:359][728]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.08.18-01.08.30:359][728]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.08.18-01.08.30:360][728]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.08.18-01.08.30:360][728]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.08.18-01.08.30:360][728]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.08.18-01.08.30:361][728]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.08.18-01.08.30:362][728]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.08.18-01.08.30:363][728]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.08.18-01.08.30:363][728]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.08.18-01.08.30:364][728]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.08.18-01.08.30:365][728]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.08.18-01.08.30:365][728]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.08.18-01.08.30:366][728]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.08.18-01.08.30:366][728]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.08.18-01.08.30:366][728]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.08.18-01.08.30:366][728]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.08.18-01.08.30:367][728]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.08.18-01.08.30:367][728]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.08.18-01.08.30:367][728]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.08.18-01.08.30:367][728]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.08.18-01.08.30:367][728]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.08.18-01.08.30:368][728]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.08.18-01.08.30:368][728]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.08.18-01.08.30:368][728]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.08.18-01.08.30:368][728]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.18-01.08.30:370][728]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.08.18-01.08.30:376][728]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.08.18-01.08.30:376][728]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.08.18-01.08.30:379][728]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.08.18-01.08.30:380][728]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.08.18-01.08.30:380][728]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.08.18-01.08.30:380][728]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.08.18-01.08.30:408][728]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.08.18-01.08.30:409][728]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.08.18-01.08.30:409][728]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.08.18-01.08.30:409][728]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.08.18-01.08.30:414][728]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.08.18-01.08.30:414][728]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.08.18-01.08.30:414][728]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.08.18-01.08.30:415][728]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.08.18-01.08.30:416][728]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.08.18-01.08.30:416][728]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.08.18-01.08.30:425][728]LogExit: Exiting.
+[2017.08.18-01.08.30:484][728]Log file closed, 08/18/17 13:08:30
