@@ -1,0 +1,769 @@
+﻿Log file open, 08/22/17 20:03:37
+LogInit:Display: Running engine for game: KoopySandwich
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1377697039) SRandInit(-1377697039).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 3.384515
+LogPluginManager: Loaded Plugin Paper2D, From E:/Unreal t/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Unreal t/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From E:/Unreal t/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From E:/Unreal t/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From E:/Unreal t/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From E:/Unreal t/UE_4.14/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From E:/Unreal t/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From E:/Unreal t/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From E:/Unreal t/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From E:/Unreal t/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From E:/Unreal t/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From E:/Unreal t/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From E:/Unreal t/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From E:/Unreal t/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From E:/Unreal t/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From E:/Unreal t/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From E:/Unreal t/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From E:/Unreal t/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From E:/Unreal t/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From E:/Unreal t/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From E:/Unreal t/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From E:/Unreal t/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From E:/Unreal t/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From E:/Unreal t/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From E:/Unreal t/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From E:/Unreal t/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal t/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.22-08.03.38:069][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-08.03.38:069][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-08.03.38:189][  0]LogInit: Computer: LIAM-PC
+[2017.08.22-08.03.38:189][  0]LogInit: User: Liam
+[2017.08.22-08.03.38:189][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.08.22-08.03.38:189][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2017.08.22-08.03.38:189][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.22-08.03.38:189][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-08.03.38:189][  0]LogMemory: Process Physical Memory: 264.89 MB used, 264.89 MB peak
+[2017.08.22-08.03.38:189][  0]LogMemory: Process Virtual Memory: 262.35 MB used, 262.35 MB peak
+[2017.08.22-08.03.38:189][  0]LogMemory: Physical Memory: 5376.60 MB used,  2676.34 MB free, 8052.93 MB total
+[2017.08.22-08.03.38:189][  0]LogMemory: Virtual Memory: 676.48 MB used,  2676.34 MB free, 134217728.00 MB total
+[2017.08.22-08.03.39:083][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2017.08.22-08.03.42:746][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-08.03.42:804][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2017.08.22-08.03.42:804][  0]LogD3D11RHI:       4060/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.22-08.03.42:855][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.08.22-08.03.42:855][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.22-08.03.42:856][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.22-08.03.42:856][  0]LogD3D11RHI:       0/0/4026 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.22-08.03.42:856][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-08.03.42:863][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-08.03.42:863][  0]LogD3D11RHI:     GPU DeviceId: 0x13c0 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-08.03.42:863][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-08.03.42:863][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2017.08.22-08.03.42:863][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:1)
+[2017.08.22-08.03.42:863][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.08.22-08.03.42:863][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2017.08.22-08.03.42:863][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.22-08.03.42:863][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.22-08.03.42:863][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.08.22-08.03.42:864][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.22-08.03.42:864][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2017.08.22-08.03.42:864][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.08.22-08.03.42:864][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.08.22-08.03.42:864][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.22-08.03.42:886][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-08.03.43:174][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.22-08.03.43:291][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Intermediate/Shaders/WorkingDirectory/9332/).
+[2017.08.22-08.03.43:291][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liam/AppData/Local/Temp/UnrealShaderWorkingDir/EEC36CFA467BB5E9955F5FB494830A8E/'.
+[2017.08.22-08.03.43:292][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.22-08.03.47:496][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-08.03.47:534][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-08.03.47:569][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-08.03.47:604][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-08.03.47:653][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.22-08.03.47:688][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-08.03.47:723][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-08.03.47:759][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-08.03.47:787][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-08.03.47:824][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-08.03.47:860][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-08.03.47:895][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-08.03.47:931][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-08.03.47:966][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-08.03.48:001][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-08.03.48:087][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-08.03.48:087][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-08.03.48:109][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-08.03.48:271][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.22-08.03.48:295][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-08.03.48:331][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-08.03.48:366][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-08.03.48:401][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-08.03.48:439][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-08.03.48:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.22-08.03.49:466][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache: Loaded boot cache 0.19s 50MB C:/Users/Liam/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liam/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-08.03.49:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-08.03.49:744][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-08.03.49:756][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liam/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-08.03.57:125][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-08.03.57:172][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-08.03.57:861][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-08.03.58:005][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-08.03.58:058][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-08.03.58:058][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.22-08.03.58:058][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.22-08.04.02:945][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: koopysandwich, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3251895152
+[2017.08.22-08.04.03:171][  0]LogAssetRegistry: FAssetRegistry took 0.0400 seconds to start up
+[2017.08.22-08.04.03:304][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.040930 seconds
+[2017.08.22-08.04.03:310][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.08.22-08.04.03:310][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.08.22-08.04.03:310][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-08.04.03:367][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-08.04.07:668][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-08.04.07:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-08.04.07:729][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-08.04.18:334][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2017.08.22-08.04.18:479][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-08.04.18:568][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-08.04.20:270][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-08.04.21:319][  0]SourceControl: Info Source control is disabled
+[2017.08.22-08.04.21:326][  0]SourceControl: Info Source control is disabled
+[2017.08.22-08.04.21:493][  0]SourceControl: Info Source control is disabled
+[2017.08.22-08.04.21:599][  0]SourceControl: Info Source control is disabled
+[2017.08.22-08.04.26:347][  0]LogEngine: Initializing Engine...
+[2017.08.22-08.04.26:427][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-08.04.28:117][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-08.04.28:566][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.04.28:621][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-08.04.28:645][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Liam/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.22-08.04.28:667][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-08.04.29:374][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.22-08.04.29:546][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-08.04.30:576][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-08.04.33:597][  0]LocalizationService: Info Localization service is disabled
+[2017.08.22-08.04.34:939][  0]LogConsoleResponse:Display: 
+[2017.08.22-08.04.36:470][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/' took 0.04s
+[2017.08.22-08.04.36:470][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-08.04.36:492][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.22-08.04.38:839][  0]SourceControl: Info Source control is disabled
+[2017.08.22-08.04.38:882][  0]Cmd: MAP LOAD FILE="C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-08.04.38:937][  0]LightingResults: New page: Lighting Build
+[2017.08.22-08.04.39:328][  0]MapCheck: New page: Map Check
+[2017.08.22-08.04.39:328][  0]LightingResults: New page: Lighting Build
+[2017.08.22-08.04.41:887][  0]LogStaticMesh: Building static mesh tree2_mesh...
+[2017.08.22-08.04.42:006][  0]LogStaticMesh: Built static mesh [0.13s] /Game/_Meshes/foliage/tree2_mesh.tree2_mesh
+[2017.08.22-08.04.42:318][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2017.08.22-08.04.42:535][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2017.08.22-08.04.42:581][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2017.08.22-08.04.42:616][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2017.08.22-08.04.42:746][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.08.22-08.04.43:529][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.08.22-08.04.43:728][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2017.08.22-08.04.43:878][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2017.08.22-08.04.43:927][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2017.08.22-08.04.43:957][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2017.08.22-08.04.44:080][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.08.22-08.04.44:753][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.08.22-08.04.45:131][  0]LogTexture:Display: Building textures: tree_2_SS (AutoDXT)
+[2017.08.22-08.04.45:469][  0]LogTexture:Display: Building textures: tree_2_R (AutoDXT)
+[2017.08.22-08.04.45:675][  0]LogTexture:Display: Building textures: tree_2_N (BC5)
+[2017.08.22-08.04.45:797][  0]LogTexture:Display: Building textures: tree_2_D (AutoDXT)
+[2017.08.22-08.04.46:369][  0]LogMaterial: Missing cached shader map for material treeBranch_02_M, compiling. 
+[2017.08.22-08.04.47:338][  0]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.04.48:035][  0]LogMaterial:Warning: Material /Game/_Materials/Rock/Rock_M.Rock_M needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.08.22-08.04.48:083][  0]LogMaterial: Missing cached shader map for material Rock_M, compiling. 
+[2017.08.22-08.04.48:135][  0]MapCheck:Warning: Warning Rock_M Material /Game/_Materials/Rock/Rock_M.Rock_M was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.08.22-08.04.48:161][  0]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.04.49:336][  0]LogEditorServer: Finished looking for orphan Actors (0.003 secs)
+[2017.08.22-08.04.49:551][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-08.04.49:686][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 129.309ms to complete.
+[2017.08.22-08.04.49:957][  0]LogFileHelpers: Loading map 'Koopy' took 11.085
+[2017.08.22-08.04.52:749][  0]LogCollectionManager: Loaded 0 collections in 0.001130 seconds
+[2017.08.22-08.04.52:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Collections/' took 0.01s
+[2017.08.22-08.04.52:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/Developers/Liam/Collections/' took 0.01s
+[2017.08.22-08.04.52:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/Collections/' took 0.01s
+[2017.08.22-08.04.52:992][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.08.22-08.04.53:022][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2205 classes and 436 folders.
+[2017.08.22-08.04.53:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-08.04.53:232][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-08.04.53:232][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2017.08.22-08.04.53:334][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.22-08.04.54:589][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.22-08.04.55:219][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.22-08.04.55:454][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.22-08.04.55:653][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.22-08.04.55:653][  0]LogLoad: (Engine Initialization) Total time: 88.53 seconds
+[2017.08.22-08.04.55:653][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.30 seconds
+[2017.08.22-08.04.55:677][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.22-08.04.55:677][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.22-08.04.56:106][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-08.04.56:400][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.22-08.04.57:621][  0]LogRenderer: Reallocating scene render targets to support 916x476 NumSamples 1 (Frame:2).
+[2017.08.22-08.04.58:804][  2]LogAssetRegistry: Asset discovery search completed in 55.6548 seconds
+[2017.08.22-08.04.58:805][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.22-08.04.58:805][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.08.22-08.04.59:730][  7]LogRenderer: Reallocating scene render targets to support 1316x680 NumSamples 1 (Frame:9).
+[2017.08.22-08.05.03:240][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (water_mesh)
+[2017.08.22-08.05.04:701][268]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Island_Mesh)
+[2017.08.22-08.05.11:890][ 19]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.05.11:930][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.05.11:978][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-08.05.12:076][ 19]PIE: New page: PIE session: Koopy (23/08/2017 8:05:12 am)
+[2017.08.22-08.05.12:088][ 19]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.05.12:200][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.111433s)
+[2017.08.22-08.05.12:200][ 19]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.05.12:218][ 19]LogPlayLevel: PIE: World Init took: (0.018144s)
+[2017.08.22-08.05.12:229][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.141136s)
+[2017.08.22-08.05.12:442][ 19]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.05.12:457][ 19]LogInit: FAudioDevice initialized.
+[2017.08.22-08.05.12:695][ 19]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.05.12:876][ 19]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.05.12
+[2017.08.22-08.05.12:964][ 19]LogWorld: Bringing up level for play took: 0.128797
+[2017.08.22-08.05.13:137][ 19]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.22-08.05.13:204][ 19]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.689
+[2017.08.22-08.05.13:204][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.05.13:537][ 19]LogRenderer: Reallocating scene render targets to support 1316x756 NumSamples 1 (Frame:946).
+[2017.08.22-08.05.47:948][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.05.48:138][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.06.11:605][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-08.06.13:938][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-08.06.14:772][542]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-08.06.34:619][667]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.08.22-08.07.16:981][  9]LogSavePackage: Save=233.11ms
+[2017.08.22-08.07.16:981][  9]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/VehicleBlueprintFA9D422B49D98E21680629BC96ABCAB6.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.22-08.07.17:008][  9]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.22-08.07.18:265][120]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.07.18:277][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.07.18:277][120]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.07.18:278][120]LogPlayLevel: [PlayLevel] Compiling VehicleBlueprint before play...
+[2017.08.22-08.07.18:329][120]LogBlueprint:Error: [Compiler VehicleBlueprint] Error This blueprint (self) is not a AudioComponent, therefore ' self ' must have a connection.
+[2017.08.22-08.07.18:686][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.56] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 384 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:686][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.56] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:686][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.56] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:686][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.56] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:733][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.61] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 4 Warning(s) [in 46 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:733][120]LogBlueprint:Warning: [Compiler VehicleBlueprint] Warning [0231.61] Compile of VehicleBlueprint failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.08.22-08.07.18:758][120]LogPlayLevel: PlayLevel: Blueprint regeneration took 481 ms (1 blueprints)
+[2017.08.22-08.07.18:758][120]BlueprintLog: Info Blueprint VehicleBlueprint failed to compile
+[2017.08.22-08.07.40:419][921]LogSavePackage: Save=62.07ms
+[2017.08.22-08.07.40:419][921]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/VehicleBlueprintE30B307A46265EEE96E79BA120E09C70.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.22-08.07.40:421][921]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.22-08.07.42:148][ 66]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.07.42:157][ 66]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.07.42:157][ 66]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.07.42:157][ 66]LogPlayLevel: [PlayLevel] Compiling VehicleBlueprint before play...
+[2017.08.22-08.07.42:324][ 66]LogPlayLevel: PlayLevel: Blueprint regeneration took 166 ms (1 blueprints)
+[2017.08.22-08.07.42:324][ 66]PIE: New page: PIE session: Koopy (23/08/2017 8:07:42 am)
+[2017.08.22-08.07.42:324][ 66]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.07.42:343][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018363s)
+[2017.08.22-08.07.42:343][ 66]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.07.42:344][ 66]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2017.08.22-08.07.42:344][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019402s)
+[2017.08.22-08.07.42:385][ 66]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.07.42:398][ 66]LogInit: FAudioDevice initialized.
+[2017.08.22-08.07.42:450][ 66]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.07.42:453][ 66]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.07.42
+[2017.08.22-08.07.42:453][ 66]LogWorld: Bringing up level for play took: 0.002889
+[2017.08.22-08.07.42:462][ 66]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.052
+[2017.08.22-08.07.42:463][ 66]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.07.46:366][276]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.07.46:449][276]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.07.55:240][922]LogEditorTransaction: Undo Delete current selection
+[2017.08.22-08.07.57:617][103]LogEditorTransaction: Undo Create Pin Link
+[2017.08.22-08.07.58:495][178]LogEditorTransaction: Undo Create Pin Link
+[2017.08.22-08.08.08:608][ 31]LogEditorTransaction: Undo Delete current selection
+[2017.08.22-08.09.26:664][809]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.09.26:673][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.09.26:673][809]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.09.26:673][809]LogPlayLevel: [PlayLevel] Compiling VehicleBlueprint before play...
+[2017.08.22-08.09.26:832][809]LogPlayLevel: PlayLevel: Blueprint regeneration took 158 ms (1 blueprints)
+[2017.08.22-08.09.26:832][809]PIE: New page: PIE session: Koopy (23/08/2017 8:09:26 am)
+[2017.08.22-08.09.26:832][809]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.09.26:850][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017688s)
+[2017.08.22-08.09.26:850][809]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.09.26:850][809]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.08.22-08.09.26:850][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018476s)
+[2017.08.22-08.09.26:890][809]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.09.26:903][809]LogInit: FAudioDevice initialized.
+[2017.08.22-08.09.26:954][809]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.09.26:958][809]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.09.26
+[2017.08.22-08.09.26:959][809]LogWorld: Bringing up level for play took: 0.003331
+[2017.08.22-08.09.26:968][809]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.454
+[2017.08.22-08.09.26:968][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.09.36:601][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.09.36:666][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.09.39:236][677]LogEditorTransaction: Undo Delete current selection
+[2017.08.22-08.09.42:485][947]LogEditorTransaction: Undo Create Reroute Node
+[2017.08.22-08.12.59:065][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-08.12.59:771][762]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.12.59:782][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.12.59:782][762]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.12.59:782][762]LogPlayLevel: [PlayLevel] Compiling VehicleBlueprint before play...
+[2017.08.22-08.12.59:930][762]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (1 blueprints)
+[2017.08.22-08.12.59:931][762]PIE: New page: PIE session: Koopy (23/08/2017 8:12:59 am)
+[2017.08.22-08.12.59:931][762]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.12.59:949][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018380s)
+[2017.08.22-08.12.59:950][762]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.12.59:950][762]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.08.22-08.12.59:950][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019291s)
+[2017.08.22-08.12.59:966][762]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.12.59:980][762]LogInit: FAudioDevice initialized.
+[2017.08.22-08.13.00:031][762]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.13.00:036][762]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.13.00
+[2017.08.22-08.13.00:037][762]LogWorld: Bringing up level for play took: 0.004361
+[2017.08.22-08.13.00:046][762]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.468
+[2017.08.22-08.13.00:047][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.13.03:995][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.13.04:063][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.14.32:373][752]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.14.32:383][752]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.14.32:384][752]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.22-08.14.32:384][752]LogPlayLevel: [PlayLevel] Compiling VehicleBlueprint before play...
+[2017.08.22-08.14.32:527][752]LogPlayLevel: PlayLevel: Blueprint regeneration took 143 ms (1 blueprints)
+[2017.08.22-08.14.32:528][752]PIE: New page: PIE session: Koopy (23/08/2017 8:14:32 am)
+[2017.08.22-08.14.32:528][752]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.14.32:546][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018241s)
+[2017.08.22-08.14.32:546][752]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.14.32:547][752]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2017.08.22-08.14.32:547][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019331s)
+[2017.08.22-08.14.32:564][752]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.14.32:579][752]LogInit: FAudioDevice initialized.
+[2017.08.22-08.14.32:632][752]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.14.32:636][752]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.14.32
+[2017.08.22-08.14.32:637][752]LogWorld: Bringing up level for play took: 0.003099
+[2017.08.22-08.14.32:645][752]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.131
+[2017.08.22-08.14.32:646][752]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.15.07:509][443]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.15.07:577][443]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.16.25:856][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.22-08.16.26:062][445]LogSavePackage: Save=178.42ms
+[2017.08.22-08.16.26:062][445]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Koopy_Auto11A590D2F45A5B247603DCD93D11A69F9.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto1.umap'
+[2017.08.22-08.16.26:064][445]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/_Maps/Koopy_Auto1.umap
+[2017.08.22-08.16.26:084][445]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/_Maps/Koopy' took 0.238
+[2017.08.22-08.16.26:084][445]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2017.08.22-08.16.26:085][445]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([1] browsable assets)...
+[2017.08.22-08.16.26:129][445]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
+[2017.08.22-08.16.26:129][445]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
+[2017.08.22-08.16.26:211][445]LogSavePackage: Save=66.75ms
+[2017.08.22-08.16.26:211][445]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/VehicleBlueprint_Auto17D172C1340D31C7CE3B36B8F333D2018.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto1.uasset'
+[2017.08.22-08.16.26:212][445]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto1.uasset
+[2017.08.22-08.16.26:212][445]LogFileHelpers: Auto-saving content packages took 0.128
+[2017.08.22-08.17.12:244][193]LogActorFactory: Actor Factory created Cylinder
+[2017.08.22-08.17.14:404][437]LogActorFactory: Actor Factory created Cylinder
+[2017.08.22-08.18.16:504][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.08.22-08.19.57:927][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2017.08.22-08.20.00:472][418]EditorErrors: New page: Actor attachment
+[2017.08.22-08.20.32:354][179]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-08.20.40:819][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (God ray)
+[2017.08.22-08.21.12:584][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (God ray)
+[2017.08.22-08.21.29:833][756]LogMaterial: Missing cached shader map for material M_Water_2, compiling. 
+[2017.08.22-08.21.38:878][ 90]LogMaterial: Missing cached shader map for material M_Water_2, compiling. 
+[2017.08.22-08.21.39:262][ 90]LogMaterial: Missing cached shader map for material M_Water_2, compiling. 
+[2017.08.22-08.21.39:292][ 90]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.21.39:320][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.08.22-08.21.39:322][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.21.39:327][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.21.39:332][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.22-08.21.39:337][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.08.22-08.21.39:342][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.22-08.21.39:347][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.22-08.21.54:165][934]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.21.54:251][934]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.21.54:270][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.21.54:299][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling. 
+[2017.08.22-08.21.54:300][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.21.54:305][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.21.54:309][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.08.22-08.21.54:313][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.08.22-08.21.54:317][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.08.22-08.21.54:321][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.08.22-08.22.03:562][346]MaterialEditorStats: Info Base pass shader with static lighting: 248 instructions
+[2017.08.22-08.22.03:562][346]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 217 instructions
+[2017.08.22-08.22.03:562][346]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 222 instructions
+[2017.08.22-08.22.03:562][346]MaterialEditorStats: Info Vertex shader: 62 instructions
+[2017.08.22-08.22.03:562][346]MaterialEditorStats: Info Texture samplers: 10/16
+[2017.08.22-08.22.15:148][321]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.22.15:166][321]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.22.15:195][321]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.22.25:461][866]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.22.25:478][866]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.22.25:508][866]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.22.27:435][958]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.22.27:462][958]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.22.27:490][958]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.22.32:761][172]LogMaterialEditor: Saving and Compiling material M_Water_2
+[2017.08.22-08.22.34:900][172]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.22.34:959][172]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.22.35:021][172]LogMaterial: Missing cached shader map for material M_Water_2, compiling. 
+[2017.08.22-08.22.35:117][172]LogMaterial: Missing cached shader map for material M_Water_2, compiling. 
+[2017.08.22-08.22.35:180][172]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.22.53:747][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Materials/M_Water_2" FILE="C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Materials/M_Water_2.uasset" SILENT=true
+[2017.08.22-08.22.53:770][172]LogSavePackage: Save=20.85ms
+[2017.08.22-08.22.53:770][172]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/M_Water_23F43303D4C33D4FB9B8A9F8E842BD422.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Materials/M_Water_2.uasset'
+[2017.08.22-08.22.53:776][172]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Materials/M_Water_2.uasset
+[2017.08.22-08.22.53:780][172]MaterialEditorStats: Info Base pass shader with static lighting: 361 instructions
+[2017.08.22-08.22.53:780][172]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 331 instructions
+[2017.08.22-08.22.53:780][172]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 336 instructions
+[2017.08.22-08.22.53:780][172]MaterialEditorStats: Info Vertex shader: 62 instructions
+[2017.08.22-08.22.53:780][172]MaterialEditorStats: Info Texture samplers: 10/16
+[2017.08.22-08.23.06:390][929]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.06:408][929]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.06:436][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.14:703][153]MaterialEditorStats: Info Base pass shader with static lighting: 248 instructions
+[2017.08.22-08.23.14:703][153]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 217 instructions
+[2017.08.22-08.23.14:703][153]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 222 instructions
+[2017.08.22-08.23.14:703][153]MaterialEditorStats: Info Vertex shader: 62 instructions
+[2017.08.22-08.23.14:703][153]MaterialEditorStats: Info Texture samplers: 10/16
+[2017.08.22-08.23.20:258][514]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.20:275][514]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.20:302][514]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.22:139][609]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.22:162][609]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.22:194][609]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.23:324][662]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.23:353][662]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.23:382][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.26:231][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.26:258][802]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.26:285][802]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.28:633][918]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.28:658][918]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.28:686][918]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.33:488][164]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.33:518][164]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.33:544][164]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.34:651][223]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.34:679][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.34:711][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.35:672][271]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.35:701][271]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.35:732][271]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.36:638][313]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.36:670][313]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.36:697][313]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.41:774][574]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.41:800][574]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.41:829][574]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.43:011][639]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.43:041][639]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.43:069][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.08.22-08.23.49:206][952]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.49:235][952]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.49:262][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.50:922][ 43]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.50:947][ 43]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.50:973][ 43]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.52:312][113]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.52:339][113]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.52:365][113]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.53:001][145]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.53:026][145]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.53:056][145]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.53:930][193]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.53:957][193]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.53:984][193]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.54:440][218]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.54:465][218]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.54:491][218]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.55:897][290]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.55:926][290]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.55:956][290]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.23.58:297][408]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.23.58:326][408]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.23.58:357][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.08.22-08.24.08:946][909]MaterialEditorStats: Info Base pass shader with static lighting: 248 instructions
+[2017.08.22-08.24.08:946][909]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 217 instructions
+[2017.08.22-08.24.08:947][909]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 222 instructions
+[2017.08.22-08.24.08:947][909]MaterialEditorStats: Info Vertex shader: 62 instructions
+[2017.08.22-08.24.08:947][909]MaterialEditorStats: Info Texture samplers: 10/16
+[2017.08.22-08.24.27:777][603]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-08.24.28:906][703]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.24.28:916][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.24.28:916][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-08.24.28:916][703]PIE: New page: PIE session: Koopy (23/08/2017 8:24:28 am)
+[2017.08.22-08.24.28:916][703]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.24.28:945][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028657s)
+[2017.08.22-08.24.28:946][703]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.24.28:946][703]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2017.08.22-08.24.28:946][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.029573s)
+[2017.08.22-08.24.29:010][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.24.29:025][703]LogInit: FAudioDevice initialized.
+[2017.08.22-08.24.29:077][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.24.29:082][703]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.24.29
+[2017.08.22-08.24.29:104][703]LogWorld: Bringing up level for play took: 0.025031
+[2017.08.22-08.24.29:127][703]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.613
+[2017.08.22-08.24.29:127][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.24.40:441][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.24.40:497][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.25.10:578][737]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.25.10:587][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.25.10:587][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-08.25.10:587][737]PIE: New page: PIE session: Koopy (23/08/2017 8:25:10 am)
+[2017.08.22-08.25.10:588][737]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.25.10:606][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018010s)
+[2017.08.22-08.25.10:606][737]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.25.10:606][737]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.08.22-08.25.10:606][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018858s)
+[2017.08.22-08.25.10:621][737]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.25.10:634][737]LogInit: FAudioDevice initialized.
+[2017.08.22-08.25.10:691][737]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.25.10:694][737]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.25.10
+[2017.08.22-08.25.10:695][737]LogWorld: Bringing up level for play took: 0.003106
+[2017.08.22-08.25.10:703][737]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.189
+[2017.08.22-08.25.10:704][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.25.15:675][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.25.15:734][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.26.10:864][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-08.26.11:803][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-08.26.36:434][656]Cmd: TRANSACTION UNDO
+[2017.08.22-08.26.36:455][656]LogEditorTransaction: Undo Set actor scale
+[2017.08.22-08.26.36:476][656]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.26.36:494][656]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.26.37:033][701]Cmd: TRANSACTION UNDO
+[2017.08.22-08.26.37:033][701]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.22-08.26.37:037][701]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.08.22-08.26.37:062][701]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-08.26.38:133][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.22-08.26.38:456][793]LogSavePackage: Save=249.56ms
+[2017.08.22-08.26.38:457][793]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Koopy1A8D38CD4FC6BD99FBB76980EC09B8FA.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.22-08.26.38:471][793]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.22-08.26.38:522][793]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy_BuiltData" FILE="C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset" SILENT=true
+[2017.08.22-08.26.39:412][793]LogSavePackage: Save=869.12ms
+[2017.08.22-08.26.39:412][793]LogSavePackage: Moving 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Saved/Koopy_BuiltDataBB89F94B48FD2FF648B012B8FA46787C.tmp' to 'C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset'
+[2017.08.22-08.26.39:414][793]LogSavePackage:Display: Finished SavePackage C:/Users/Liam/Documents/GitHub/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset
+[2017.08.22-08.26.46:000][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (God ray)
+[2017.08.22-08.26.46:126][344]MaterialEditorStats: Info Base pass shader with static lighting: 248 instructions
+[2017.08.22-08.26.46:126][344]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 217 instructions
+[2017.08.22-08.26.46:126][344]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 222 instructions
+[2017.08.22-08.26.46:126][344]MaterialEditorStats: Info Vertex shader: 62 instructions
+[2017.08.22-08.26.46:126][344]MaterialEditorStats: Info Texture samplers: 10/16
+[2017.08.22-08.27.00:900][ 23]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-08.27.00:910][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.27.00:910][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-08.27.00:911][ 23]PIE: New page: PIE session: Koopy (23/08/2017 8:27:00 am)
+[2017.08.22-08.27.00:911][ 23]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-08.27.00:929][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018453s)
+[2017.08.22-08.27.00:930][ 23]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-08.27.00:930][ 23]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.08.22-08.27.00:930][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019258s)
+[2017.08.22-08.27.00:948][ 23]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.22-08.27.00:962][ 23]LogInit: FAudioDevice initialized.
+[2017.08.22-08.27.01:052][ 23]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-08.27.01:056][ 23]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-20.27.01
+[2017.08.22-08.27.01:057][ 23]LogWorld: Bringing up level for play took: 0.003859
+[2017.08.22-08.27.01:064][ 23]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.55
+[2017.08.22-08.27.01:064][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.27.09:882][ 71]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.27.09:940][ 71]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/_Maps/Koopy.Koopy:PersistentLevel' has LevelScriptBlueprint '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy' with GeneratedClass '/Game/_Maps/Koopy.Koopy_C' with ClassGeneratedBy '/Game/_Maps/Koopy.Koopy:PersistentLevel.Koopy'
+[2017.08.22-08.27.34:959][816]LogUObjectArray:Warning: Other object in slot
+[2017.08.22-08.27.35:114][816]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.139 s
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: 
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Editor\Kismet\Private\SKismetInspector.cpp] [Line: 548]
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: Object in KismetInspector is invalid, see TTP 281915
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: Stack: 
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Kismet.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Kismet.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-SlateCore.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Slate.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: uxtheme.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: uxtheme.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: ntdll.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: win32u.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: USER32.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor-Core.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor.exe
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor.exe
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor.exe
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor.exe
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: UE4Editor.exe
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: KERNEL32.DLL
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: ntdll.dll
+[2017.08.22-08.27.35:114][816]LogOutputDevice:Error: 
+[2017.08.22-08.27.35:122][816]LogStats:                SubmitErrorReport -  0.000 s
