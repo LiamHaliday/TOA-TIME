@@ -1,0 +1,996 @@
+﻿Log file open, 08/22/17 16:21:48
+LogInit:Display: Running engine for game: KoopySandwich
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-175316276) SRandInit(-175316275).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093885
+LogPluginManager: Loaded Plugin Paper2D, From C:/apps/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/apps/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/apps/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/apps/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/apps/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/apps/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/apps/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/apps/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/apps/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/apps/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/apps/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/apps/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/apps/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/apps/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/apps/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/apps/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/apps/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/apps/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/apps/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/apps/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/apps/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/apps/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/apps/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/apps/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/apps/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line:  
+LogInit: Base directory: C:/apps/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.22-04.21.49:347][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-04.21.49:347][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.22-04.21.49:359][  0]LogInit: Computer: 1805C007
+[2017.08.22-04.21.49:359][  0]LogInit: User: gregoryjon6888
+[2017.08.22-04.21.49:359][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.08.22-04.21.49:359][  0]LogInit: High frequency timer resolution =3.323632 MHz
+[2017.08.22-04.21.49:359][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.08.22-04.21.49:359][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.22-04.21.49:359][  0]LogMemory: Process Physical Memory: 267.58 MB used, 267.58 MB peak
+[2017.08.22-04.21.49:359][  0]LogMemory: Process Virtual Memory: 265.58 MB used, 265.58 MB peak
+[2017.08.22-04.21.49:359][  0]LogMemory: Physical Memory: 2951.78 MB used,  5198.38 MB free, 8150.16 MB total
+[2017.08.22-04.21.49:359][  0]LogMemory: Virtual Memory: 684.64 MB used,  5198.38 MB free, 8388608.00 MB total
+[2017.08.22-04.21.49:454][  0]LogTextLocalizationManager: No specific translations for ('en-NZ') exist, so ('en') translations will be used.
+[2017.08.22-04.21.50:650][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.22-04.21.50:670][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2017.08.22-04.21.50:670][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.22-04.21.50:670][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.22-04.21.50:674][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.22-04.21.50:674][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.22-04.21.50:674][  0]LogWindows: EnumDisplayDevices:
+[2017.08.22-04.21.50:674][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:0 D:1)
+[2017.08.22-04.21.50:674][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2017.08.22-04.21.50:674][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows:    7. 'Mirage Driver' (P:0 D:0)
+[2017.08.22-04.21.50:674][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.22-04.21.50:674][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2017.08.22-04.21.50:674][  0]LogD3D11RHI:   Driver Version: 364.72 (internal:10.18.13.6472, unified:364.72)
+[2017.08.22-04.21.50:674][  0]LogD3D11RHI:      Driver Date: 3-21-2016
+[2017.08.22-04.21.50:674][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.22-04.21.50:683][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.08.22-04.21.50:683][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.22-04.21.50:697][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.22-04.21.50:697][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Intermediate/Shaders/WorkingDirectory/8408/).
+[2017.08.22-04.21.50:697][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Users/gregory.jon6888/AppData/Local/Temp/UnrealShaderWorkingDir/F0A7A9514633C81B4CEC71AD60C9A9AF/'.
+[2017.08.22-04.21.50:697][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.22-04.21.52:192][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.22-04.21.52:291][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.22-04.21.52:433][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.22-04.21.52:523][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.22-04.21.52:614][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.22-04.21.52:704][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.22-04.21.52:794][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.22-04.21.52:884][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.22-04.21.52:962][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.22-04.21.53:053][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.22-04.21.53:142][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.22-04.21.53:231][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.22-04.21.53:320][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.22-04.21.53:410][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.22-04.21.53:499][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.22-04.21.53:676][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.22-04.21.53:676][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.22-04.21.53:749][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.22-04.21.53:905][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.22-04.21.53:956][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.22-04.21.54:045][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.22-04.21.54:135][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.22-04.21.54:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.22-04.21.54:314][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.22-04.21.54:314][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.22-04.21.55:156][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache: Loaded boot cache 1.02s 64MB D:/Users/gregory.jon6888/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache:Display: Loaded Boot cache: D:/Users/gregory.jon6888/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.22-04.21.56:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.22-04.21.56:191][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.22-04.21.56:202][  0]LogDerivedDataCache: Using Local data cache path D:/Users/gregory.jon6888/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.22-04.21.57:068][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.22-04.21.57:071][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.22-04.21.57:400][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.22-04.21.57:509][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.22-04.21.57:587][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.22-04.21.57:587][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.22-04.21.57:587][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.22-04.21.58:162][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: koopysandwich, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3251895152
+[2017.08.22-04.21.58:345][  0]LogAssetRegistry: FAssetRegistry took 0.0204 seconds to start up
+[2017.08.22-04.21.58:401][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.019330 seconds
+[2017.08.22-04.21.58:406][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.08.22-04.21.58:406][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.08.22-04.21.58:406][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.22-04.21.58:520][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.22-04.22.00:013][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.22-04.22.00:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-04.22.00:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.22-04.22.03:927][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.22-04.22.04:010][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.22-04.22.04:660][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.22-04.22.05:336][  0]SourceControl: Info Source control is disabled
+[2017.08.22-04.22.05:461][  0]SourceControl: Info Source control is disabled
+[2017.08.22-04.22.05:545][  0]SourceControl: Info Source control is disabled
+[2017.08.22-04.22.05:624][  0]SourceControl: Info Source control is disabled
+[2017.08.22-04.22.07:973][  0]LogEngine: Initializing Engine...
+[2017.08.22-04.22.07:974][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.22-04.22.08:378][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.22-04.22.08:398][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.22.08:413][  0]LogInit: FAudioDevice initialized.
+[2017.08.22-04.22.08:443][  0]LogDerivedDataCache: Saved boot cache 0.03s 64MB D:/Users/gregory.jon6888/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.08.22-04.22.08:449][  0]LogInit: Texture streaming: Enabled
+[2017.08.22-04.22.08:804][  0]LogInit: Transaction tracking system initialized
+[2017.08.22-04.22.09:454][  0]BlueprintLog: New page: Editor Load
+[2017.08.22-04.22.11:105][  0]LocalizationService: Info Localization service is disabled
+[2017.08.22-04.22.12:404][  0]LogConsoleResponse:Display: 
+[2017.08.22-04.22.12:632][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.22-04.22.12:632][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.22-04.22.13:562][  0]LogFileCache: Scanning file cache for directory 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/' took 0.01s
+[2017.08.22-04.22.14:458][  0]SourceControl: Info Source control is disabled
+[2017.08.22-04.22.14:458][  0]Cmd: MAP LOAD FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.22-04.22.14:459][  0]LightingResults: New page: Lighting Build
+[2017.08.22-04.22.14:532][  0]MapCheck: New page: Map Check
+[2017.08.22-04.22.14:532][  0]LightingResults: New page: Lighting Build
+[2017.08.22-04.22.15:830][  0]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.22.15:857][  0]LogMaterial:Warning: Material /Game/_Materials/Rock/Rock_M.Rock_M needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.08.22-04.22.15:860][  0]LogMaterial: Missing cached shader map for material Rock_M, compiling. 
+[2017.08.22-04.22.15:923][  0]MapCheck:Warning: Warning Rock_M Material /Game/_Materials/Rock/Rock_M.Rock_M was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2017.08.22-04.22.15:924][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.22-04.22.15:932][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.22-04.22.15:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.22-04.22.16:084][  0]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 151.699ms to complete.
+[2017.08.22-04.22.16:097][  0]LogFileHelpers: Loading map 'Koopy' took 1.639
+[2017.08.22-04.22.16:323][  0]LogCollectionManager: Loaded 0 collections in 0.002657 seconds
+[2017.08.22-04.22.16:487][  0]LogFileCache: Scanning file cache for directory 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Collections/' took 0.01s
+[2017.08.22-04.22.16:487][  0]LogFileCache: Scanning file cache for directory 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/Developers/gregoryjon6888/Collections/' took 0.01s
+[2017.08.22-04.22.16:487][  0]LogFileCache: Scanning file cache for directory 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/Collections/' took 0.01s
+[2017.08.22-04.22.16:488][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.22-04.22.16:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2190 classes and 428 folders.
+[2017.08.22-04.22.16:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.22-04.22.16:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.22-04.22.16:623][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 13 classes and 0 folders.
+[2017.08.22-04.22.16:800][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.08.22-04.22.17:238][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.22-04.22.17:372][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.22-04.22.17:469][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.22-04.22.17:476][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.22-04.22.17:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.22-04.22.17:644][  0]LogLoad: (Engine Initialization) Total time: 43.45 seconds
+[2017.08.22-04.22.17:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.24 seconds
+[2017.08.22-04.22.17:644][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.22-04.22.17:644][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.22-04.22.17:654][  0]LogOcInput: OculusInput pre-init called
+[2017.08.22-04.22.17:672][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.22-04.22.17:905][  0]LogRenderer: Reallocating scene render targets to support 720x544 NumSamples 1 (Frame:2).
+[2017.08.22-04.22.18:150][  2]LogAssetRegistry: Asset discovery search completed in 19.8268 seconds
+[2017.08.22-04.22.18:150][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.22-04.22.18:150][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.08.22-04.22.25:492][582]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.22.36:827][112]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.38:034][191]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.43:565][615]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.44:410][692]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.48:867][ 81]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.49:267][113]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.22.51:294][257]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.52:269][336]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.22.53:679][462]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.22.56:574][687]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.23.00:112][ 49]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.23.01:587][179]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.23.08:148][705]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.08.22-04.23.14:713][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-04.23.16:550][331]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.23.25:040][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-04.23.27:003][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-04.23.27:741][831]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.23.29:342][895]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.29:342][895]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.22-04.23.30:692][975]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.30:692][975]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.22-04.23.31:183][ 11]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.31:183][ 11]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.22-04.23.31:672][ 31]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.31:672][ 31]LogEditorTransaction: Undo Move Actors
+[2017.08.22-04.23.32:071][ 43]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.32:071][ 43]LogEditorTransaction: Undo Move Actors
+[2017.08.22-04.23.32:549][ 63]Cmd: TRANSACTION UNDO
+[2017.08.22-04.23.32:550][ 63]LogEditorTransaction: Undo Move Actors
+[2017.08.22-04.23.35:568][184]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2017.08.22-04.23.47:526][112]LogRenderer: Reallocating scene render targets to support 952x908 NumSamples 1 (Frame:7845).
+[2017.08.22-04.23.59:840][902]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.23.59:849][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.23.59:850][902]PIE: New page: PIE session: Koopy (23/08/2017 4:23:59 am)
+[2017.08.22-04.23.59:850][902]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.23.59:868][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018657s)
+[2017.08.22-04.23.59:869][902]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.23.59:869][902]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.08.22-04.23.59:869][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019882s)
+[2017.08.22-04.23.59:889][902]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.23.59:894][902]LogInit: FAudioDevice initialized.
+[2017.08.22-04.24.00:161][902]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.24.00:164][902]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.24.00
+[2017.08.22-04.24.00:165][902]LogWorld: Bringing up level for play took: 0.002500
+[2017.08.22-04.24.00:241][902]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.22-04.24.00:248][902]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.035
+[2017.08.22-04.24.00:316][902]LogRenderer: Reallocating scene render targets to support 1292x908 NumSamples 1 (Frame:9465).
+[2017.08.22-04.25.03:898][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh_2)
+[2017.08.22-04.25.08:284][312]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.25.08:293][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.25.08:294][312]PIE: New page: PIE session: Koopy (23/08/2017 4:25:08 am)
+[2017.08.22-04.25.08:294][312]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.25.08:312][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018081s)
+[2017.08.22-04.25.08:312][312]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.25.08:312][312]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.08.22-04.25.08:312][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018829s)
+[2017.08.22-04.25.08:324][312]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.25.08:329][312]LogInit: FAudioDevice initialized.
+[2017.08.22-04.25.08:371][312]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.25.08:374][312]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.25.08
+[2017.08.22-04.25.08:374][312]LogWorld: Bringing up level for play took: 0.002548
+[2017.08.22-04.25.08:381][312]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.829
+[2017.08.22-04.25.18:897][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh_2)
+[2017.08.22-04.25.31:943][607]LogSavePackage: Save=12.28ms
+[2017.08.22-04.25.31:943][607]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/DoubleJumpIsland_V2_MeshD8A19ACC40AA55A4550792805EFE4C58.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/islands/DoubleJumpIsland_V2_Mesh.uasset'
+[2017.08.22-04.25.31:946][607]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/islands/DoubleJumpIsland_V2_Mesh.uasset
+[2017.08.22-04.25.34:161][751]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.25.34:170][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.25.34:170][751]PIE: New page: PIE session: Koopy (23/08/2017 4:25:34 am)
+[2017.08.22-04.25.34:170][751]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.25.34:188][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017367s)
+[2017.08.22-04.25.34:188][751]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.25.34:188][751]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2017.08.22-04.25.34:188][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018216s)
+[2017.08.22-04.25.34:200][751]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.25.34:205][751]LogInit: FAudioDevice initialized.
+[2017.08.22-04.25.34:251][751]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.25.34:254][751]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.25.34
+[2017.08.22-04.25.34:254][751]LogWorld: Bringing up level for play took: 0.002561
+[2017.08.22-04.25.34:260][751]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 1.052
+[2017.08.22-04.25.51:673][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh_2)
+[2017.08.22-04.25.56:094][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-04.26.05:242][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-04.27.11:163][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.22-04.27.11:269][948]LogSavePackage: Save=87.13ms
+[2017.08.22-04.27.11:269][948]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy0B8E024F41639A4D5C3C69A117A2D925.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.22-04.27.11:271][948]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.22-04.27.11:295][948]LogFileHelpers: Saving map 'Koopy' took 0.266
+[2017.08.22-04.27.41:358][676]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.27.44:337][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-04.27.50:345][991]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.27.50:356][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.27.50:356][991]PIE: New page: PIE session: Koopy (23/08/2017 4:27:50 am)
+[2017.08.22-04.27.50:356][991]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.27.50:373][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017637s)
+[2017.08.22-04.27.50:374][991]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.27.50:374][991]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2017.08.22-04.27.50:374][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018530s)
+[2017.08.22-04.27.50:386][991]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.27.50:391][991]LogInit: FAudioDevice initialized.
+[2017.08.22-04.27.50:431][991]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.27.50:435][991]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.27.50
+[2017.08.22-04.27.50:435][991]LogWorld: Bringing up level for play took: 0.002545
+[2017.08.22-04.27.50:441][991]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.762
+[2017.08.22-04.29.28:410][277]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.29.28:419][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.29.28:419][277]PIE: New page: PIE session: Koopy (23/08/2017 4:29:28 am)
+[2017.08.22-04.29.28:419][277]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.29.28:437][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018063s)
+[2017.08.22-04.29.28:437][277]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.29.28:438][277]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2017.08.22-04.29.28:438][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018975s)
+[2017.08.22-04.29.28:450][277]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.29.28:455][277]LogInit: FAudioDevice initialized.
+[2017.08.22-04.29.28:492][277]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.29.28:495][277]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.29.28
+[2017.08.22-04.29.28:496][277]LogWorld: Bringing up level for play took: 0.002588
+[2017.08.22-04.29.28:501][277]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.698
+[2017.08.22-04.30.42:574][345]Cmd: TRANSACTION UNDO
+[2017.08.22-04.30.42:574][345]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.30.54:085][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Meshes/rocks/Rock02_Mesh" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock02_Mesh.uasset" SILENT=true
+[2017.08.22-04.30.54:102][815]LogSavePackage: Save=10.36ms
+[2017.08.22-04.30.54:102][815]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock02_MeshA42709DD42CF88BFCD01B69CA6CE1289.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock02_Mesh.uasset'
+[2017.08.22-04.30.54:104][815]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock02_Mesh.uasset
+[2017.08.22-04.31.06:626][928]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.31.06:635][928]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.31.06:635][928]PIE: New page: PIE session: Koopy (23/08/2017 4:31:06 am)
+[2017.08.22-04.31.06:635][928]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.31.06:654][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019230s)
+[2017.08.22-04.31.06:655][928]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.31.06:655][928]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.08.22-04.31.06:655][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.020048s)
+[2017.08.22-04.31.06:667][928]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.31.06:672][928]LogInit: FAudioDevice initialized.
+[2017.08.22-04.31.06:714][928]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.31.06:717][928]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.31.06
+[2017.08.22-04.31.06:718][928]LogWorld: Bringing up level for play took: 0.002596
+[2017.08.22-04.31.06:726][928]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.469
+[2017.08.22-04.31.26:075][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.22-04.31.26:157][112]LogSavePackage: Save=69.71ms
+[2017.08.22-04.31.26:157][112]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy773983F34EE862FAE3931DB48453ADA6.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.22-04.31.26:159][112]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.22-04.31.26:179][112]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy_BuiltData" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset" SILENT=true
+[2017.08.22-04.31.26:200][112]LogSavePackage: Save=15.95ms
+[2017.08.22-04.31.26:200][112]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy_BuiltDataB0C3BC68422FCF148D043892112B37C7.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset'
+[2017.08.22-04.31.26:200][112]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy_BuiltData.uasset
+[2017.08.22-04.31.27:682][212]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.31.27:690][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.31.27:691][212]PIE: New page: PIE session: Koopy (23/08/2017 4:31:27 am)
+[2017.08.22-04.31.27:691][212]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.31.27:709][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018674s)
+[2017.08.22-04.31.27:710][212]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.31.27:710][212]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.08.22-04.31.27:710][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019477s)
+[2017.08.22-04.31.27:721][212]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.31.27:727][212]LogInit: FAudioDevice initialized.
+[2017.08.22-04.31.27:770][212]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.31.27:774][212]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.31.27
+[2017.08.22-04.31.27:775][212]LogWorld: Bringing up level for play took: 0.003173
+[2017.08.22-04.31.27:782][212]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.588
+[2017.08.22-04.31.59:449][ 22]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.31.59:458][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.31.59:458][ 22]PIE: New page: PIE session: Koopy (23/08/2017 4:31:59 am)
+[2017.08.22-04.31.59:458][ 22]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.31.59:476][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018132s)
+[2017.08.22-04.31.59:477][ 22]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.31.59:477][ 22]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.08.22-04.31.59:477][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018963s)
+[2017.08.22-04.31.59:489][ 22]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.31.59:494][ 22]LogInit: FAudioDevice initialized.
+[2017.08.22-04.31.59:541][ 22]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.31.59:545][ 22]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.31.59
+[2017.08.22-04.31.59:545][ 22]LogWorld: Bringing up level for play took: 0.003434
+[2017.08.22-04.31.59:554][ 22]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.362
+[2017.08.22-04.32.23:441][925]Cmd: TRANSACTION UNDO
+[2017.08.22-04.32.23:442][925]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.32.30:000][193]Cmd: TRANSACTION UNDO
+[2017.08.22-04.32.30:000][193]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.32.43:713][816]Cmd: TRANSACTION UNDO
+[2017.08.22-04.32.43:713][816]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.32.49:207][ 44]Cmd: TRANSACTION UNDO
+[2017.08.22-04.32.49:207][ 44]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.32.58:285][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Meshes/rocks/Rock04_Mesh" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock04_Mesh.uasset" SILENT=true
+[2017.08.22-04.32.58:301][579]LogSavePackage: Save=9.87ms
+[2017.08.22-04.32.58:301][579]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock04_MeshB7A1D4ED4C8FFFAD2F8051A23E190614.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock04_Mesh.uasset'
+[2017.08.22-04.32.58:311][579]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock04_Mesh.uasset
+[2017.08.22-04.33.04:016][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Meshes/rocks/Rock01_Mesh" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock01_Mesh.uasset" SILENT=true
+[2017.08.22-04.33.04:031][813]LogSavePackage: Save=10.10ms
+[2017.08.22-04.33.04:031][813]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock01_Mesh59FF9FB7470B556245BCBC94FD8CD59B.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock01_Mesh.uasset'
+[2017.08.22-04.33.04:033][813]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Meshes/rocks/Rock01_Mesh.uasset
+[2017.08.22-04.33.20:066][575]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.33.20:075][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.33.20:075][575]PIE: New page: PIE session: Koopy (23/08/2017 4:33:20 am)
+[2017.08.22-04.33.20:075][575]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.33.20:093][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017648s)
+[2017.08.22-04.33.20:093][575]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.33.20:094][575]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.08.22-04.33.20:094][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018430s)
+[2017.08.22-04.33.20:105][575]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.33.20:111][575]LogInit: FAudioDevice initialized.
+[2017.08.22-04.33.20:152][575]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.33.20:156][575]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.33.20
+[2017.08.22-04.33.20:157][575]LogWorld: Bringing up level for play took: 0.003583
+[2017.08.22-04.33.20:164][575]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.975
+[2017.08.22-04.33.50:325][972]Cmd: TRANSACTION UNDO
+[2017.08.22-04.33.50:325][972]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.33.57:517][226]Cmd: TRANSACTION UNDO
+[2017.08.22-04.33.57:517][226]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.33.59:279][338]Cmd: TRANSACTION UNDO
+[2017.08.22-04.33.59:279][338]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.34.00:956][386]Cmd: TRANSACTION UNDO
+[2017.08.22-04.34.00:956][386]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.34.06:713][548]Cmd: TRANSACTION UNDO
+[2017.08.22-04.34.06:713][548]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.34.22:802][837]Cmd: TRANSACTION UNDO
+[2017.08.22-04.34.22:802][837]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.34.37:133][288]Cmd: TRANSACTION UNDO
+[2017.08.22-04.34.37:133][288]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.34.51:802][725]Cmd: TRANSACTION UNDO
+[2017.08.22-04.34.51:802][725]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.05:833][204]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.05:833][204]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.06:401][240]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.06:401][240]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.06:973][296]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.06:973][296]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.09:329][358]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.09:329][358]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.12:093][428]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.12:093][428]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.13:234][458]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.13:234][458]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.35.50:744][401]Cmd: TRANSACTION UNDO
+[2017.08.22-04.35.50:744][401]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.05:177][816]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.05:177][816]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.08:966][982]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.08:966][982]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.12:296][147]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.12:296][147]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.42:493][997]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.42:493][997]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.45:072][136]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.45:072][136]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.36.53:171][334]Cmd: TRANSACTION UNDO
+[2017.08.22-04.36.53:171][334]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.37.00:128][579]Cmd: TRANSACTION UNDO
+[2017.08.22-04.37.00:128][579]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.37.46:324][759]Cmd: TRANSACTION UNDO
+[2017.08.22-04.37.46:324][759]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.38.01:216][202]Cmd: TRANSACTION UNDO
+[2017.08.22-04.38.01:216][202]LogEditorTransaction: Undo Foliage Editing
+[2017.08.22-04.38.10:028][474]LogSavePackage: Save=9.86ms
+[2017.08.22-04.38.10:028][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Flax_Mesh_FoliageTypeCC2873D74655A5FAFB55D295F982CECD.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Flax_Mesh_FoliageType.uasset'
+[2017.08.22-04.38.10:029][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Flax_Mesh_FoliageType.uasset
+[2017.08.22-04.38.10:065][474]LogSavePackage: Save=10.05ms
+[2017.08.22-04.38.10:065][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock01_Mesh_FoliageType05177A6D4EA05930FF328087EB439D0C.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock01_Mesh_FoliageType.uasset'
+[2017.08.22-04.38.10:067][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock01_Mesh_FoliageType.uasset
+[2017.08.22-04.38.10:098][474]LogSavePackage: Save=9.78ms
+[2017.08.22-04.38.10:098][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock02_Mesh_FoliageType84F407D640864A4926834D80F5E6DD19.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock02_Mesh_FoliageType.uasset'
+[2017.08.22-04.38.10:100][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock02_Mesh_FoliageType.uasset
+[2017.08.22-04.38.10:132][474]LogSavePackage: Save=9.16ms
+[2017.08.22-04.38.10:132][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Rock04_Mesh_FoliageTypeC05829C34DDF8E6F6307A7BBDB0769E5.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock04_Mesh_FoliageType.uasset'
+[2017.08.22-04.38.10:133][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/Rock04_Mesh_FoliageType.uasset
+[2017.08.22-04.38.10:166][474]LogSavePackage: Save=10.09ms
+[2017.08.22-04.38.10:166][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/tree1_mesh_FoliageTypeEB63A4B04FBD485D370FE3A01BDBB163.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/tree1_mesh_FoliageType.uasset'
+[2017.08.22-04.38.10:167][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Foliage_Presets/tree1_mesh_FoliageType.uasset
+[2017.08.22-04.38.10:288][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.22-04.38.10:380][474]LogSavePackage: Save=74.49ms
+[2017.08.22-04.38.10:380][474]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy9FCF72E04F8DD4A528B11FB831122ADE.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.22-04.38.10:381][474]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.22-04.38.10:401][474]LogFileHelpers: Saving map 'Koopy' took 0.231
+[2017.08.22-04.38.10:954][485]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.38.10:963][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.38.10:963][485]PIE: New page: PIE session: Koopy (23/08/2017 4:38:10 am)
+[2017.08.22-04.38.10:964][485]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.38.10:981][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017743s)
+[2017.08.22-04.38.10:982][485]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.38.10:982][485]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.08.22-04.38.10:982][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018640s)
+[2017.08.22-04.38.10:994][485]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.38.10:999][485]LogInit: FAudioDevice initialized.
+[2017.08.22-04.38.11:043][485]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.38.11:047][485]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.38.11
+[2017.08.22-04.38.11:047][485]LogWorld: Bringing up level for play took: 0.003721
+[2017.08.22-04.38.11:054][485]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.122
+[2017.08.22-04.38.59:521][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Materials/foliage/flax_M_Inst" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset" SILENT=true
+[2017.08.22-04.38.59:537][807]LogSavePackage: Save=10.10ms
+[2017.08.22-04.38.59:537][807]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/flax_M_Inst7277FEF74D724CA20360D0A1F596AD1D.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset'
+[2017.08.22-04.38.59:539][807]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset
+[2017.08.22-04.39.10:382][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Materials/foliage/flax_M_Inst" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset" SILENT=true
+[2017.08.22-04.39.10:396][ 88]LogSavePackage: Save=9.95ms
+[2017.08.22-04.39.10:396][ 88]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/flax_M_InstBA57AC4A48CE53A805DFC18AEF193D81.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset'
+[2017.08.22-04.39.10:398][ 88]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset
+[2017.08.22-04.39.16:755][257]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.39.16:764][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.39.16:764][257]PIE: New page: PIE session: Koopy (23/08/2017 4:39:16 am)
+[2017.08.22-04.39.16:764][257]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.39.16:783][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018496s)
+[2017.08.22-04.39.16:783][257]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.39.16:783][257]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2017.08.22-04.39.16:784][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019324s)
+[2017.08.22-04.39.16:795][257]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.39.16:801][257]LogInit: FAudioDevice initialized.
+[2017.08.22-04.39.16:845][257]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.39.16:850][257]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.39.16
+[2017.08.22-04.39.16:850][257]LogWorld: Bringing up level for play took: 0.003860
+[2017.08.22-04.39.16:857][257]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.317
+[2017.08.22-04.39.27:056][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.08.22-04.39.33:734][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh_2)
+[2017.08.22-04.39.43:167][197]PIE:Warning: Warning Applying invalid scale V(X=1.00, Y=.96, Z=1.00) to body Island_Mesh_34
+[2017.08.22-04.39.48:254][348]Cmd: TRANSACTION UNDO
+[2017.08.22-04.39.48:254][348]LogEditorTransaction: Undo Scale Actors
+[2017.08.22-04.39.52:016][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-04.39.55:802][621]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.39.55:811][621]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.39.55:811][621]PIE: New page: PIE session: Koopy (23/08/2017 4:39:55 am)
+[2017.08.22-04.39.55:811][621]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.39.55:829][621]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017463s)
+[2017.08.22-04.39.55:829][621]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.39.55:829][621]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.08.22-04.39.55:829][621]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018218s)
+[2017.08.22-04.39.55:841][621]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.39.55:847][621]LogInit: FAudioDevice initialized.
+[2017.08.22-04.39.55:891][621]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.39.55:896][621]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.39.55
+[2017.08.22-04.39.55:896][621]LogWorld: Bringing up level for play took: 0.003737
+[2017.08.22-04.39.55:902][621]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.73
+[2017.08.22-04.40.23:033][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh)
+[2017.08.22-04.40.24:811][692]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.40.43:263][ 41]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.41.02:842][441]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.41.07:187][530]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2017.08.22-04.41.08:699][625]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.41.21:202][881]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.41.21:211][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.41.21:211][881]PIE: New page: PIE session: Koopy (23/08/2017 4:41:21 am)
+[2017.08.22-04.41.21:212][881]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.41.21:230][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018720s)
+[2017.08.22-04.41.21:231][881]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.41.21:231][881]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2017.08.22-04.41.21:231][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.019587s)
+[2017.08.22-04.41.21:274][881]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.41.21:280][881]LogInit: FAudioDevice initialized.
+[2017.08.22-04.41.21:318][881]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.41.21:323][881]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.41.21
+[2017.08.22-04.41.21:323][881]LogWorld: Bringing up level for play took: 0.003781
+[2017.08.22-04.41.21:330][881]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.161
+[2017.08.22-04.41.29:639][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-04.41.30:608][120]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.41.45:627][437]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.08.22-04.41.55:326][632]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.41.55:335][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.41.55:335][632]PIE: New page: PIE session: Koopy (23/08/2017 4:41:55 am)
+[2017.08.22-04.41.55:335][632]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.41.55:353][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017525s)
+[2017.08.22-04.41.55:353][632]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.41.55:353][632]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.08.22-04.41.55:353][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.018316s)
+[2017.08.22-04.41.55:408][632]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.41.55:414][632]LogInit: FAudioDevice initialized.
+[2017.08.22-04.41.55:459][632]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.41.55:464][632]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.41.55
+[2017.08.22-04.41.55:464][632]LogWorld: Bringing up level for play took: 0.003997
+[2017.08.22-04.41.55:470][632]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.303
+[2017.08.22-04.42.04:317][ 62]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.42.09:681][171]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.42.09:690][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.42.09:690][171]PIE: New page: PIE session: Koopy (23/08/2017 4:42:09 am)
+[2017.08.22-04.42.09:690][171]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.42.09:707][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017050s)
+[2017.08.22-04.42.09:708][171]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.42.09:708][171]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.08.22-04.42.09:708][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.017847s)
+[2017.08.22-04.42.09:757][171]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.42.09:762][171]LogInit: FAudioDevice initialized.
+[2017.08.22-04.42.09:802][171]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.42.09:806][171]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.42.09
+[2017.08.22-04.42.09:807][171]LogWorld: Bringing up level for play took: 0.003673
+[2017.08.22-04.42.09:813][171]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.646
+[2017.08.22-04.42.12:391][277]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.42.12:400][277]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.42.12:400][277]PIE: New page: PIE session: Koopy (23/08/2017 4:42:12 am)
+[2017.08.22-04.42.12:400][277]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.42.12:417][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016227s)
+[2017.08.22-04.42.12:417][277]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.42.12:417][277]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.08.22-04.42.12:417][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.016976s)
+[2017.08.22-04.42.12:466][277]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.42.12:471][277]LogInit: FAudioDevice initialized.
+[2017.08.22-04.42.12:510][277]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.42.12:515][277]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.42.12
+[2017.08.22-04.42.12:515][277]LogWorld: Bringing up level for play took: 0.003689
+[2017.08.22-04.42.12:522][277]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy -0.645
+[2017.08.22-04.42.15:997][376]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.42.19:428][445]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.42.19:437][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.42.19:437][445]PIE: New page: PIE session: Koopy (23/08/2017 4:42:19 am)
+[2017.08.22-04.42.19:437][445]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.42.19:454][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016450s)
+[2017.08.22-04.42.19:454][445]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.42.19:454][445]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2017.08.22-04.42.19:455][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.017351s)
+[2017.08.22-04.42.19:493][445]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.42.19:498][445]LogInit: FAudioDevice initialized.
+[2017.08.22-04.42.19:537][445]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.42.19:542][445]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.42.19
+[2017.08.22-04.42.19:543][445]LogWorld: Bringing up level for play took: 0.004366
+[2017.08.22-04.42.19:549][445]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.383
+[2017.08.22-04.42.21:972][536]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.42.24:823][593]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.22-04.42.27:441][645]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.08.22-04.42.27:450][645]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.22-04.42.27:450][645]PIE: New page: PIE session: Koopy (23/08/2017 4:42:27 am)
+[2017.08.22-04.42.27:450][645]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_Koopy
+[2017.08.22-04.42.27:467][645]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016324s)
+[2017.08.22-04.42.27:467][645]LogAIModule: Creating AISystem for world Koopy
+[2017.08.22-04.42.27:467][645]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.08.22-04.42.27:468][645]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/Koopy.Koopy to /Game/_Maps/UEDPIE_0_Koopy.Koopy (0.017083s)
+[2017.08.22-04.42.27:504][645]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.22-04.42.27:509][645]LogInit: FAudioDevice initialized.
+[2017.08.22-04.42.27:548][645]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.08.22-04.42.27:553][645]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_Koopy.Koopy up for play (max tick rate 0) at 2017.08.22-16.42.27
+[2017.08.22-04.42.27:553][645]LogWorld: Bringing up level for play took: 0.003817
+[2017.08.22-04.42.27:559][645]PIE: Info Play in editor start time for /Game/_Maps/UEDPIE_0_Koopy 0.393
+[2017.08.22-04.42.40:137][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Island_Mesh_2)
+[2017.08.22-04.42.45:005][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (water_mesh)
+[2017.08.22-04.42.47:601][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/Koopy" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.22-04.42.47:691][329]LogSavePackage: Save=74.87ms
+[2017.08.22-04.42.47:691][329]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Koopy2116306A4B9DD7D5D5F44E94BDD3F017.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap'
+[2017.08.22-04.42.47:693][329]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Maps/Koopy.umap
+[2017.08.22-04.42.47:712][329]LogFileHelpers: Saving map 'Koopy' took 0.233
+[2017.08.22-04.42.47:714][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Materials/foliage/flax_M_Inst" FILE="D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset" SILENT=true
+[2017.08.22-04.42.47:720][329]LogSavePackage: Save=1.67ms
+[2017.08.22-04.42.47:720][329]LogSavePackage: Moving 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/flax_M_Inst5D320F57420A6543D204C790EC9E3766.tmp' to 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset'
+[2017.08.22-04.42.47:722][329]LogSavePackage:Display: Finished SavePackage D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/_Materials/foliage/flax_M_Inst.uasset
+[2017.08.22-04.42.55:592][603]Cmd: QUIT_EDITOR
+[2017.08.22-04.42.55:641][603]LogExit: Preparing to exit.
+[2017.08.22-04.42.56:149][603]LogExit: Editor shut down
+[2017.08.22-04.42.56:150][603]LogExit: Transaction tracking system shut down
+[2017.08.22-04.42.56:208][603]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.22-04.42.56:208][603]LogExit: Object subsystem successfully closed.
+[2017.08.22-04.42.56:228][603]LogD3D11RHI: Shutdown
+[2017.08.22-04.42.56:228][603]LogD3D11RHI: CleanupD3DDevice
+[2017.08.22-04.42.56:312][603]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.22-04.42.56:338][603]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.22-04.42.56:338][603]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B565A24F2-4C37-0567-66EF-7C860DE97457%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.3-3249277%2B%2B%2BUE4%2BRelease-4.14&UserID=1c5c22ae4b3ef09cadf6daa4a9683948%7C%7C7495a53a-a6b0-4167-ba1c-84a826331936&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module MaterialEditor (244)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (243)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (242)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2017.08.22-04.42.56:351][603]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2017.08.22-04.42.56:351][603]LogDirectoryWatcher: A directory notification for 'C:/apps/Epic Games/4.14/FeaturePacks/' was aborted.
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2017.08.22-04.42.56:353][603]LogDirectoryWatcher: A directory notification for 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/Collections/' was aborted.
+[2017.08.22-04.42.56:353][603]LogDirectoryWatcher: A directory notification for 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/Developers/gregoryjon6888/Collections/' was aborted.
+[2017.08.22-04.42.56:353][603]LogDirectoryWatcher: A directory notification for 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Saved/Collections/' was aborted.
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module Media (215)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2017.08.22-04.42.56:353][603]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2017.08.22-04.42.56:354][603]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2017.08.22-04.42.56:354][603]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2017.08.22-04.42.56:354][603]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2017.08.22-04.42.56:354][603]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.08.22-04.42.56:802][603]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2017.08.22-04.42.56:803][603]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2017.08.22-04.42.56:853][603]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2017.08.22-04.42.56:854][603]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2017.08.22-04.42.56:930][603]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2017.08.22-04.42.56:931][603]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2017.08.22-04.42.56:931][603]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2017.08.22-04.42.56:932][603]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2017.08.22-04.42.56:932][603]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2017.08.22-04.42.56:932][603]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2017.08.22-04.42.57:032][603]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2017.08.22-04.42.57:132][603]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2017.08.22-04.42.57:133][603]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2017.08.22-04.42.57:133][603]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2017.08.22-04.42.57:133][603]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2017.08.22-04.42.57:133][603]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module Core (75)
+[2017.08.22-04.42.57:135][603]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2017.08.22-04.42.57:135][603]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.22-04.42.57:135][603]LogDirectoryWatcher: A directory notification for 'D:/Users/gregory.jon6888/Desktop/Prototype 3/TOA-TIME/KoopySandwich/Content/' was aborted.
+[2017.08.22-04.42.57:136][603]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.22-04.42.57:136][603]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2017.08.22-04.42.57:210][603]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2017.08.22-04.42.57:242][603]LogDerivedDataCache: Shutdown
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2017.08.22-04.42.57:242][603]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2017.08.22-04.42.57:243][603]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.22-04.42.57:243][603]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.08.22-04.42.57:244][603]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.08.22-04.42.57:245][603]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.08.22-04.42.57:247][603]LogExit: Exiting.
+[2017.08.22-04.42.57:248][603]Log file closed, 08/22/17 16:42:57
